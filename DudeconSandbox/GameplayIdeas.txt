@@ -1,0 +1,59 @@
+
+Color/planet : Ruler/god : Aspect/mechanic
+Red: Mars: War
+Blue: Earth: Chaos
+Green: Venus: Fecundity
+Purple: Jupiter: Wisdom
+Teal: Mercury: Travel
+Yellow: Sun: vitality, conscious
+White: Moon(s): emotion, sub-conscious
+Black: Saturn: Order
+
+
+
+Mars launches from an asteroid, navigates orbit to the red planet, wars on Red, Victory! One "unit" left. Now in:
+
+Prep phase!
+Walk over units to pick them up. Unattended units will build upgrades (dangerous to collect too many, as you will find out at the end) Units will collect upgrades after a short time, and then attack you. Action builds cities, each city takes one unit. Press action while on a city to launch the expedition. Color wheel destination selector (Mars astrological symbol pointer)? Transition to:
+
+Ship phase!
+Bullet hell. The more units you bring, the bigger and slower your ship is. Shoot down bullets? Some rulers are boss ships in this phase. Navigate to the planet to land (do not need to defeat ruler, but ground phase will be difficult) and reach the:
+
+Ground phase!
+Same as prep phase, except everything is trying to kill you. If you failed to defeat the ruler in orbit, you'll have to kill all the units. Otherwise, kill the ruler on the ground. If you already killed the ruler in orbit, you get a triumph? Once you clear this phase it's back to prep!
+
+Those three are the medium-scale game-loop. Large-scale loop is to defeat all six rulers. Then allow the citizens to defeat you, which may be impossible if you've farmed too many upgrades? Fast forward, the people rebuild, re-develop, give rise to new rulers, and awaken another asteroid (loop back to the beginning)
+
+
+
+
+Planet specialties, unit capabilities, theming
+
+Red: Mars: War
+homing bullets, can shoot down projectiles
+
+Blue: Earth: Chaos
+randomly teleporting? Shoots bursts in a random direction
+
+Green: Venus: Fecundity
+units reproduce? bullets also reproduce?
+
+Purple: Jupiter: Wisdom
+can see all unit stats. Focuses down lowest health instead of attacking nearest.
+
+Teal: Mercury: Travel
+high movement speed, dash-through attack
+
+Black: Saturn: Order
+units leave walls behind them, snake/tron-cycle, fully encircle destroys?
+
+
+
+White: Moon(s) (asteroids): emotion, sub-conscious, cycles
+There is no ruler here, but if you kill them, the rulers will come back from the asteroids after a while. If you go here, you can pick up generic units that have all of your accumulated upgrades.
+
+
+
+Yellow: Sun: vitality, conscious
+be serious now. Is the sun a playable game-space?
+
