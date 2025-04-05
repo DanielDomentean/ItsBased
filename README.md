@@ -1,2 +1,3 @@
-# ItsBased
-It's Based game jam 2025 repository
+# ItsBased game jam early 2025 repository
+
+Theme is "The Red Planet"
