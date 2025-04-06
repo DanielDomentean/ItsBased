@@ -37,7 +37,7 @@
     {"id":{"name":"fnt_calibri_medium","path":"fonts/fnt_calibri_medium/fnt_calibri_medium.yy",},},
     {"id":{"name":"rm_level_1","path":"rooms/rm_level_1/rm_level_1.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
-    {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"scrpt_setup","path":"scripts/scrpt_setup/scrpt_setup.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
