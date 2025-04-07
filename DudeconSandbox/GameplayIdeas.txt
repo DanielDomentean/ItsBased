@@ -1,5 +1,25 @@
+Top-down multi-phase bullet-hell
+Visual Style: chunky pixel sprites
 
-Color/planet : Ruler/god : Aspect/mechanic
+You play as Mars, an AI "god" based on the eponymous planet.
+
+Short-term gameplay: bullet-hell in Three phases (repeating):
+space battle
+ground battle
+strategy
+
+Medium-term gameplay:
+You must defeat the other gods (bosses) of the other planets to free their people. Each planet has unique powerups and challenges.
+
+Long-term gameplay:
+Allow yourself to be defeated as well to stop the conflict. Repeated play-through can add modifiers (bosses re-spawn, units rebel faster, game-speed increases)
+
+End Credits:
+If you won, roll the lore of your playthrough.
+If you lost, roll the lore of the unit that did the most damage to you, and the aftermath of your failure.
+
+
+Color/planet : Ruler/god/boss : Aspect/mechanic
 Red: Mars: War
 Blue: Earth: Chaos
 Green: Venus: Fecundity
@@ -22,7 +42,7 @@ Bullet hell. The more units you bring, the bigger and slower your ship is. Shoot
 Ground phase!
 Same as prep phase, except everything is trying to kill you. If you failed to defeat the ruler in orbit, you'll have to kill all the units. Otherwise, kill the ruler on the ground. If you already killed the ruler in orbit, you get a triumph? Once you clear this phase it's back to prep!
 
-Those three are the medium-scale game-loop. Large-scale loop is to defeat all six rulers. Then allow the citizens to defeat you, which may be impossible if you've farmed too many upgrades? Fast forward, the people rebuild, re-develop, give rise to new rulers, and awaken another asteroid (loop back to the beginning)
+Those three are the medium-scale game-loop. Large-scale loop is to defeat all six rulers. Then allow the citizens to defeat you, which may be impossible if you've farmed too many upgrades? Fast forward, the people rebuild, re-develop, give rise to new rulers, and awaken another asteroid, or re-awake the moon (loop back to the beginning).
 
 
 
@@ -47,13 +67,15 @@ high movement speed, dash-through attack
 Black: Saturn: Order
 units leave walls behind them, snake/tron-cycle, fully encircle destroys?
 
+Yellow: Sun: vitality, conscious
+Health regen during space combat.
+
 
 
 White: Moon(s) (asteroids): emotion, sub-conscious, cycles
-There is no ruler here, but if you kill them, the rulers will come back from the asteroids after a while. If you go here, you can pick up generic units that have all of your accumulated upgrades.
+There is no boss here. If you go here, you can pick up generic units that have all of your accumulated upgrades. In harder game modes, the bosses respawn at the asteroids after a while.
 
 
 
-Yellow: Sun: vitality, conscious
-be serious now. Is the sun a playable game-space?
+
 
