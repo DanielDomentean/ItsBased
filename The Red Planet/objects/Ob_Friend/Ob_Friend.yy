@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Player",
+  "%Name":"Ob_Friend",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ob_Player",
+  "name":"Ob_Friend",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"Ob_Friend",
-    "path":"objects/Ob_Friend/Ob_Friend.yy",
+    "name":"Ob_Unit",
+    "path":"objects/Ob_Unit/Ob_Unit.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"centurian_sprite",
-    "path":"sprites/centurian_sprite/centurian_sprite.yy",
+    "name":"RedSoldier",
+    "path":"sprites/RedSoldier/RedSoldier.yy",
   },
   "spriteMaskId":null,
   "visible":true,

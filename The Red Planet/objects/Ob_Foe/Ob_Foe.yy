@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"Ob_Moves",
+  "%Name":"Ob_Foe",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Ob_Moves",
+  "name":"Ob_Foe",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"Ob_Entity",
-    "path":"objects/Ob_Entity/Ob_Entity.yy",
+    "name":"Ob_Unit",
+    "path":"objects/Ob_Unit/Ob_Unit.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"venusian_sprite",
+    "path":"sprites/venusian_sprite/venusian_sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

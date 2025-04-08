@@ -9,3 +9,5 @@ disabled = false;
 
 
 animation_count = 0;
+
+faction = 0;

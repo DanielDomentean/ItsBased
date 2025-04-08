@@ -12,3 +12,7 @@ disabled = false;
 
 
 animation_count = 0;
+
+move_speed = 1.618;
+hp = 40;
+update_stuff();
