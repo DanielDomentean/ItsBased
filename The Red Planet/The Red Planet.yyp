@@ -69,6 +69,7 @@
     {"id":{"name":"sp_bullett","path":"sprites/sp_bullett/sp_bullett.yy",},},
     {"id":{"name":"sp_ship04","path":"sprites/sp_ship04/sp_ship04.yy",},},
     {"id":{"name":"Splash","path":"sprites/Splash/Splash.yy",},},
+    {"id":{"name":"starscape","path":"sprites/starscape/starscape.yy",},},
     {"id":{"name":"venusian_elite_sprite_sheet_idle_shoot_and_move","path":"sprites/venusian_elite_sprite_sheet_idle_shoot_and_move/venusian_elite_sprite_sheet_idle_shoot_and_move.yy",},},
     {"id":{"name":"venusian_sprite","path":"sprites/venusian_sprite/venusian_sprite.yy",},},
   ],
