@@ -1,0 +1,50 @@
+Prefer to store all of the gameplay in one "room" so the simulation can run for all the planets simultaneously.
+Maybe this is not called for? I like the simplicity of a one-scene game. I'm probably being too precious with code.
+
+Global timer so the various play speeds in the various modes are coherently represented.
+Is there a year-month-day standard format, or do we roll our own? (I think we roll our own)
+Would be fun to have a dual timer of Mars time and Local time. Track this per boss so we can post the significant dates in the end-game text scroll.
+I think "days" is the right unit of measurement for time. We can arbitrarily divide this into months and years per planet to get the local time, and the days we can lock to be all the same
+(everyone uses an earth-day or whatever)
+
+Have a global game setting for gameplay speed for testing/difficulty
+Space battle runs at ~1 day / realtime-sec (0.015 days per frame)
+Ground combat at ~24 day / realtime-sec (0.4 days per frame)
+Strategy/planning at ~600 day / realtime-sec (10 days per frame)
+
+Units need a "pickup speed" so they don't immediately upgrade and the player has a chance to get pickups. Pickups should have a difficulty multiple as well, so we can balance the improvements.
+Should have a pickup flicker (green?) to visually indicate, as well as a constricting reticle to show overall progress.
+"pickup speed" can also double for capturing units, so units need a difficulty as well. Friendly units / matching faction flag should provide a bonus.
+Store the pickup countdown on the item instead of the unit? In a per-faction array maybe. That way multiple factions can attempt to pick up the same item.
+Capturing cities/facilities could work like this as well.
+Default to about 1000 days, so pickup/capture during ground combat is possible, but arduous.
+
+Non-controlled unit AI move toward non-faction, and away from same-faction units. Shoot toward highest priority target? Move toward pickups if there are no enemies?
+Projectiles should be faction-coded to avoid friendly fire.
+Make sure to reserve faction 0 for the anti-AI units, the rebels against the AI.
+Faction alliances? Or are factions exclusive? (I think the latter)
+"capture" or "pick up" enemy Boss to switch the alliance of the faction? Or do all the units fall back to faction 0?
+Some damage reduces faction alliance? Some attacks increase faction alliance? Health reduction isn't the only way to defeat units?
+
+Need Boss AI that builds stuff. Captures units.
+Set an alarm on the player character to fallback on Boss AI after no inputs for some time.
+Ideally the Boss AI could play the game, very helpful for testing.
+
+Boss units can pick up other units. Units are consumed to construct facilities. Just one kind of facility to start with ( the city? ).
+Taking an action on a city launches a spaceship, carrying the player and any units they have picked up. Give all of the Boss pickups to each of the units?
+Probably only the pickups that have been picked up during the most recent strategy phase.
+Ship mode, fly around to the other planets, or back to the planet you started on?
+
+Approach the planet in space battle mode/phase
+Planet is at the top of the screen, enemies are trying to keep you away? very simple bullet hell gameplay.
+The twist is that, the more units and pickups you brought with you, the slower (or maybe time runs faster instead?) and larger your ship is, making avoiding the bullets more difficult.
+You can just land at the planet and enter ground combat mode.
+However, if any ships capable of shooting remain in orbit, you will get orbital bombarded to death very quickly.
+If there is no orbital opposition, skip this phase?
+
+Ground combat view, same as strategy/planning view?
+Toggle between these modes based on the presence of non-faction units.
+Non-faction cities should not trigger ground combat, so they can be quickly captured.
+Spaceship should "land" as a friendly emplacement, so you can escape back to orbit if you want.
+Units heal when touching friendly emplacements/cities?
+
