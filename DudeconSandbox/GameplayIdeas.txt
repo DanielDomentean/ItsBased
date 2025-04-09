@@ -12,11 +12,31 @@ Medium-term gameplay:
 You must defeat the other gods (bosses) of the other planets to free their people. Each planet has unique powerups and challenges.
 
 Long-term gameplay:
-Allow yourself to be defeated as well to stop the conflict. Repeated play-through can add modifiers (bosses re-spawn, units rebel faster, game-speed increases)
+Free the inhabitants of each world (allow units to rebel and capture all cities) then allow yourself to be defeated as well to stop the conflict.
+Repeated play-through can add modifiers (bosses re-spawn, units rebel faster, game-speed increases)?
 
 End Credits:
-If you won, roll the lore of your playthrough.
-If you lost, roll the lore of the unit that did the most damage to you, and the aftermath of your failure.
+If you won, roll the lore of your playthrough, and the aftermath of your victory.
+If you lost, roll the lore of your playthrough, the unit that killed you, and the aftermath of your failure.
+
+
+Arcade Mode:
+If the player dies, decrement lives and restart the current room. Bosses stay dead, but no other persistence.
+Beat game in arcade to unlock Campaign and Story?
+
+Campaign Mode:
+As arcade mode, but progress, construction, and upgrades persist.
+
+Endless Mode:
+As campaign mode, but Bosses (including the player) respawn after an extended period.
+Requires background faction simulation.
+Secret "extinction" ending if you manage to wipe out all civilization?
+Needs an active asteroid counter. Maybe you need an upgrade to find the active asteroids, otherwise it's just an empty asteroid and you can't destroy the facilities.
+Are facilities actually destroyable? Need a new sub-class of Emplacement that takes damage from bullets.
+
+Story Mode:
+Every time a unit dies, a scene transitions, a unit upgrades, or a structure is built, pause the game and run a text scroll describing the event
+Give the player 10x health?
 
 
 Color/planet : Ruler/god/boss : Aspect/mechanic
@@ -42,7 +62,8 @@ Bullet hell. The more units you bring, the bigger and slower your ship is. Shoot
 Ground phase!
 Same as prep phase, except everything is trying to kill you. If you failed to defeat the ruler in orbit, you'll have to kill all the units. Otherwise, kill the ruler on the ground. If you already killed the ruler in orbit, you get a triumph? Once you clear this phase it's back to prep!
 
-Those three are the medium-scale game-loop. Large-scale loop is to defeat all six rulers. Then allow the citizens to defeat you, which may be impossible if you've farmed too many upgrades? Fast forward, the people rebuild, re-develop, give rise to new rulers, and awaken another asteroid, or re-awake the moon (loop back to the beginning).
+Those three are the medium-scale game-loop. Large-scale loop is to defeat all six rulers. Then allow the citizens to defeat you, which may be impossible if you've farmed too many upgrades?
+Fast forward, the people rebuild, re-develop, give rise to new rulers, and awaken another asteroid, or re-awake the moon (loop back to the beginning).
 
 
 
