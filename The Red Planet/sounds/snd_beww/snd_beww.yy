@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.175465,
+  "duration":0.17546485,
   "name":"snd_beww",
   "parent":{
     "name":"Sounds",
