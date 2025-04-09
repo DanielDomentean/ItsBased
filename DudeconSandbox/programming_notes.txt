@@ -1,5 +1,8 @@
 Each planet surface is a different "room"
-Maybe the strategy game layer is a different room as well?
+Maybe the strategy game layer is a different room as well? Try to keep it unified.
+
+PRIORITY TODO:
+Click-to-move and interaction for tablet/mobile users (movement inertia and overshoot? Call move-to-point only on acquisition instead of every frame)
 
 Global timer so the various play speeds in the various modes are coherently represented.
 Is there a year-month-day standard format, or do we roll our own? (I think we roll our own)
