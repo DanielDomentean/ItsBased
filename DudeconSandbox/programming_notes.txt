@@ -1,5 +1,5 @@
-Prefer to store all of the gameplay in one "room" so the simulation can run for all the planets simultaneously.
-Maybe this is not called for? I like the simplicity of a one-scene game. I'm probably being too precious with code.
+Each planet surface is a different "room"
+Maybe the strategy game layer is a different room as well?
 
 Global timer so the various play speeds in the various modes are coherently represented.
 Is there a year-month-day standard format, or do we roll our own? (I think we roll our own)
@@ -19,32 +19,39 @@ Store the pickup countdown on the item instead of the unit? In a per-faction arr
 Capturing cities/facilities could work like this as well.
 Default to about 1000 days, so pickup/capture during ground combat is possible, but arduous.
 
-Non-controlled unit AI move toward non-faction, and away from same-faction units. Shoot toward highest priority target? Move toward pickups if there are no enemies?
-Projectiles should be faction-coded to avoid friendly fire.
+Non-controlled unit AI move toward non-faction. Shoot toward highest priority target?
+Move away from same-faction units, so they spread out?
+Move toward pickups if there are no enemies?
+Move toward friendly emplacement if has taken damage?
+
+Projectiles are faction-coded to avoid friendly fire.
 Make sure to reserve faction 0 for the anti-AI units, the rebels against the AI.
-Faction alliances? Or are factions exclusive? (I think the latter)
+All factions have friendly-fire between factions. Units are class-typed Friend and Foe for ID.
+If a unit switches between them, create a new unit of the correct type and destroy the current instance.
+
 "capture" or "pick up" enemy Boss to switch the alliance of the faction? Or do all the units fall back to faction 0?
 Some damage reduces faction alliance? Some attacks increase faction alliance? Health reduction isn't the only way to defeat units?
 
-Need Boss AI that builds stuff. Captures units.
-Set an alarm on the player character to fallback on Boss AI after no inputs for some time.
-Ideally the Boss AI could play the game, very helpful for testing.
+Need Boss AI that builds stuff. Captures units. Moves between planets. (Player AI does a little of this)
+Player character has fallback to AI after no inputs for some time. Use Boss AI once it is implemented.
+Ideally the Boss AI/Player could play the whole game by itself, very helpful for testing, combined with the 
 
 Boss units can pick up other units. Units are consumed to construct facilities. Just one kind of facility to start with ( the city? ).
 Taking an action on a city launches a spaceship, carrying the player and any units they have picked up. Give all of the Boss pickups to each of the units?
 Probably only the pickups that have been picked up during the most recent strategy phase.
-Ship mode, fly around to the other planets, or back to the planet you started on?
+
+Ship mode allows you to fly around to the other planets, or back to the planet you started on. It's an over-world map essentially.
 
 Approach the planet in space battle mode/phase
 Planet is at the top of the screen, enemies are trying to keep you away? very simple bullet hell gameplay.
 The twist is that, the more units and pickups you brought with you, the slower (or maybe time runs faster instead?) and larger your ship is, making avoiding the bullets more difficult.
 You can just land at the planet and enter ground combat mode.
-However, if any ships capable of shooting remain in orbit, you will get orbital bombarded to death very quickly.
-If there is no orbital opposition, skip this phase?
+However, if any ships capable of shooting remain in orbit, you will get orbital bombarded to death very quickly. (still needs implementation)
+If there is no orbital opposition, skip this phase? (yes, the "room" you move to when you touch a planet is hard-coded on the map object)
 
 Ground combat view, same as strategy/planning view?
 Toggle between these modes based on the presence of non-faction units.
 Non-faction cities should not trigger ground combat, so they can be quickly captured.
-Spaceship should "land" as a friendly emplacement, so you can escape back to orbit if you want.
-Units heal when touching friendly emplacements/cities?
+Spaceship should "land" as a friendly emplacement, so you can escape back to orbit if you want. (should be easy to implement on a per-map basis)
+Units heal when touching friendly emplacements/cities? Add to unit AI when implemented.
 
