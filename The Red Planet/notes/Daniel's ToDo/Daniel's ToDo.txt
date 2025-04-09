@@ -1,0 +1,18 @@
+Character controls:
+Click-to-move and interaction for tablet/mobile users
+Call move-to-point only on acquisition instead of every frame so movement doesn't "wiggle"
+
+UI elements:
+HP bar for all units
+Current faction presence on each of the planets maybe?
+A player inventory bar somewhere on the side of the screen?
+	need UI with 1,2,4,8 slots for 4 ship sizes
+text overlay system for the victory/failure screen.
+	darkens the screen and scrolls some text.
+	Display a sprite as well, off to one side.
+
+Effects
+screen shake
+Custom particle effects (using the default "fireworks" right now) for damage, shooting, etc.
+new projectile sprite for the space battles
+

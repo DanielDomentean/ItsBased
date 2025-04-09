@@ -36,6 +36,7 @@
   "name":"The Red Planet",
   "resources":[
     {"id":{"name":"fnt_calibri_medium","path":"fonts/fnt_calibri_medium/fnt_calibri_medium.yy",},},
+    {"id":{"name":"Daniel's ToDo","path":"notes/Daniel's ToDo/Daniel's ToDo.yy",},},
     {"id":{"name":"Paul's ToDo","path":"notes/Paul's ToDo/Paul's ToDo.yy",},},
     {"id":{"name":"obj_Bullett","path":"objects/obj_Bullett/obj_Bullett.yy",},},
     {"id":{"name":"obj_Emplacement","path":"objects/obj_Emplacement/obj_Emplacement.yy",},},

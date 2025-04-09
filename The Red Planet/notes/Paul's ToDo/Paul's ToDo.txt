@@ -1,0 +1,30 @@
+Landed Ship Emplacement
+
+Elapsed Time Tracking
+Display
+Logging for lore
+
+Strategy Mode
+Construction of emplacements
+Units build pickups
+
+Pickup system
+Upgrades
+Capturing
+
+Add more unit AI
+spread out
+away from player
+get pickups
+heal at emplacement
+
+Boss/Player actions
+pick up units
+store pickups
+deploy units on landing
+
+Ship Combat
+ship effects from unit payload
+Remember orbital remaining
+orbital strikes in ground mode
+
