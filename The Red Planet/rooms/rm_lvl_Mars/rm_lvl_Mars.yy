@@ -1,15 +1,17 @@
 {
   "$GMRoom":"v1",
-  "%Name":"rm_level_1",
+  "%Name":"rm_lvl_Mars",
   "creationCodeFile":"",
   "inheritCode":false,
   "inheritCreationOrder":false,
   "inheritLayers":false,
   "instanceCreationOrder":[
-    {"name":"inst_AF275D","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_6A67F99E","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_2741233C","path":"rooms/rm_level_1/rm_level_1.yy",},
-    {"name":"inst_34469DB3","path":"rooms/rm_level_1/rm_level_1.yy",},
+    {"name":"inst_AF275D","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_6A67F99E","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_2741233C","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_34469DB3","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_575DF6BA","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_66799EC8","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -18,13 +20,17 @@
         {"$GMRInstance":"v2","%Name":"inst_6A67F99E","colour":4289921021,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A67F99E","objectId":{"name":"obj_Foe","path":"objects/obj_Foe/obj_Foe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":160.0,},
         {"$GMRInstance":"v2","%Name":"inst_2741233C","colour":4289921021,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2741233C","objectId":{"name":"obj_Foe","path":"objects/obj_Foe/obj_Foe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":288.0,},
         {"$GMRInstance":"v2","%Name":"inst_34469DB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34469DB3","objectId":{"name":"obj_Friend","path":"objects/obj_Friend/obj_Friend.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":128.0,},
+        {"$GMRInstance":"v2","%Name":"inst_66799EC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66799EC8","objectId":{"name":"obj_Friend","path":"objects/obj_Friend/obj_Friend.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRInstanceLayer":"","%Name":"Emplacements","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"$GMRInstance":"v2","%Name":"inst_575DF6BA","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_575DF6BA","objectId":{"name":"obj_Emplacement","path":"objects/obj_Emplacement/obj_Emplacement.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":384.0,"y":224.0,},
+      ],"layers":[],"name":"Emplacements","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_21738466","animationSpeed":1.0,"colour":4285361517,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_21738466","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"spriteId":{"name":"spr_Mars","path":"sprites/spr_Mars/spr_Mars.yy",},"x":32.0,"y":-160.0,},
-      ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4286348412,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_starscape","path":"sprites/spr_starscape/spr_starscape.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+      ],"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
+    {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4286348412,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_starscape","path":"sprites/spr_starscape/spr_starscape.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
-  "name":"rm_level_1",
+  "name":"rm_lvl_Mars",
   "parent":{
     "name":"Rooms",
     "path":"folders/Rooms.yy",

@@ -2,6 +2,7 @@
 event_inherited();
 
 // comment
+delayed_action = instance_destroy;
 
 move_speed = 1;
 
@@ -63,4 +64,13 @@ wander = function()
 	targ_x = random_range(xstart - wander_dist, xstart + wander_dist )
 	targ_y = random_range(ystart - wander_dist, ystart + wander_dist )
 	alarm[2] = -1;
+}
+
+shoot = function()
+{
+	var _blt = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Instances", obj_Bullett);
+		_blt.direction = point_direction(x,y,targ_x,targ_y);
+		_blt.direction += random_range(-spread,spread)
+		_blt.faction = faction;
+		_blt.update_stuff();
 }

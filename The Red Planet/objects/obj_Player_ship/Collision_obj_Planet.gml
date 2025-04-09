@@ -1,0 +1,1 @@
+room_goto(other.linked_room);

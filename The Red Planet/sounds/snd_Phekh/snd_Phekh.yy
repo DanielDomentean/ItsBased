@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.15059,
+  "duration":0.14802721,
   "name":"snd_Phekh",
   "parent":{
     "name":"Sounds",

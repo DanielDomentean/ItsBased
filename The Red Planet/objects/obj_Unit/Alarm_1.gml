@@ -1,1 +1,1 @@
-instance_destroy();
+delayed_action();

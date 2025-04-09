@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_city",
+    "path":"sprites/spr_city/spr_city.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
