@@ -1,3 +1,5 @@
+if disabled exit;
+
 alarm[2] = shoot_delay + random_range(-d_jit,d_jit);
 
 for (var i = 0; i < shots; i += 1)

@@ -14,10 +14,24 @@ activeinput = true;
 animation_count = 0;
 
 move_speed = 1.618;
-hp = 40;
+hp = 10;
 
 retarget_delay = 120;
 update_stuff();
+
+
+
+
+
+delayed_death = function()
+{
+	disabled = true;
+	sprite_index = spr_centurian_death;
+	alarm[1] = 120;
+	delayed_action = game_restart;
+}
+
+delayed_action = delayed_death;
 
 take_action = function()
 {

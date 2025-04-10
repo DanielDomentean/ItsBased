@@ -1,3 +1,5 @@
+if disabled exit;
+
 if other.faction == faction
 {
 	exit;
