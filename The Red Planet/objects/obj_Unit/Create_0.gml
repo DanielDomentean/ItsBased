@@ -16,6 +16,7 @@ wander_dist = 40;
 
 hp = 4;
 hp_max = hp;
+hp_bar_width = sprite_width;
 disabled = false;
 pow = 1;
 shoot_delay = 20;
@@ -58,13 +59,9 @@ find_target = function()
 		targ_y = _inst.y + random_range( -wander_dist, wander_dist );
 		// wander();
 	}
-<<<<<<< HEAD
-	
+
 	targ_set = true;
 	show_debug_message("target set");
-=======
-	move_towards_point(targ_x, targ_y, move_speed);
->>>>>>> 9eb827eb6447d90416d3002a25fbf114cf5b4283
 }
 
 wander = function()
