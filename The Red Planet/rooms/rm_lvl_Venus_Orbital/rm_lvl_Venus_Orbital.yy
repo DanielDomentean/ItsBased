@@ -20,7 +20,7 @@
         {"$GMRInstance":"v2","%Name":"inst_59EB35C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_59EB35C","objectId":{"name":"obj_Foe_ship","path":"objects/obj_Foe_ship/obj_Foe_ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":64.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
-        {"$GMRSpriteGraphic":"v1","%Name":"graphic_21738466_1_1","animationSpeed":1.0,"colour":4285361517,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_21738466_1_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":286.0,"scaleX":6.2,"scaleY":6.2,"spriteId":{"name":"spr_venus","path":"sprites/spr_venus/spr_venus.yy",},"x":704.0,"y":-1120.0,},
+        {"$GMRSpriteGraphic":"v1","%Name":"graphic_21738466_1_1","animationSpeed":1.0,"colour":4285361517,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_21738466_1_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":286.0,"scaleX":6.2,"scaleY":6.2,"spriteId":{"name":"spr_venus","path":"sprites/spr_venus/spr_venus.yy",},"x":320.0,"y":-352.0,},
       ],"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Assets_1","properties":[],"resourceType":"GMRAssetLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4286348412,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"spr_starscape","path":"sprites/spr_starscape/spr_starscape.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
@@ -42,7 +42,7 @@
   "roomSettings":{
     "Height":360,
     "inheritRoomSettings":false,
-    "persistent":false,
+    "persistent":true,
     "Width":640,
   },
   "sequenceId":null,

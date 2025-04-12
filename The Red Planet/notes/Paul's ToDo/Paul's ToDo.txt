@@ -1,8 +1,5 @@
-Landed Ship Emplacement
 
-Elapsed Time Tracking
-Display
-Logging for lore
+Elapsed Time Logging for lore
 
 Strategy Mode
 Construction of emplacements

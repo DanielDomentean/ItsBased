@@ -7,6 +7,7 @@ event_inherited();
 
 // sprite_index = sp_ship04;
 
+delayed_action = game_restart;
 
 disabled = false;
 activeinput = true;
@@ -14,7 +15,7 @@ activeinput = true;
 animation_count = 0;
 
 move_speed = 5;
-hp = 40;
+hp = 20;
 
 retarget_delay = 120;
 update_stuff();
