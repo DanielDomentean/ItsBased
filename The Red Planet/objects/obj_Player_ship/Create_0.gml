@@ -22,7 +22,11 @@ update_stuff();
 
 take_action = function()
 {
-	if y < 60 room_goto_next();
+	if ( (y < 60 or not instance_exists(obj_Foe_ship) ) )
+	{
+		if room == rm_lvl_Venus_Orbital room_goto(rm_lvl_Venus);
+		else if room == rm_travel room_goto(rm_lvl_Mars);
+	}
 	else blast();
 }
 
@@ -37,3 +41,8 @@ blast = function()
 	audio_play_sound(snd_beww,0,false,0.08,0,random_range(.3,.5));
 }
 
+loginput = function(_input = "any")
+{
+	activeinput = true;
+	alarm[0] = 60;
+}

@@ -22,4 +22,3 @@ Ship Combat
 ship effects from unit payload
 Remember orbital remaining
 orbital strikes in ground mode
-

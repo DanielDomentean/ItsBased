@@ -33,10 +33,21 @@ delayed_death = function()
 
 delayed_action = delayed_death;
 
+loginput = function(_input = "any")
+{
+	activeinput = true;
+	alarm[0] = 60;
+}
+
 take_action = function()
 {
-	if (place_meeting(x, y, obj_Emplacement)) launch();
-	else blast();
+	if room == rm_menu
+	{
+		
+	}
+	else if (place_meeting(x, y, obj_Emplacement) and obj_GM.gamestate == 3) launch();
+	else if obj_GM.gamestate == 2 blast();
+	
 }
 
 blast = function()

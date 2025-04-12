@@ -9,7 +9,7 @@ move_speed = 1;
 targ_x = x;
 targ_y = y;
 
-alarm[0] = random_range(1,18);
+
 aggro_dist = 400;
 wander_dist = 40;
 

@@ -10,7 +10,7 @@ targ_x = x;
 targ_y = y;
 targ_set = false;
 
-alarm[0] = random_range(1,18);
+alarm[0] = random_range(50,65);
 aggro_dist = 120;
 wander_dist = 40;
 
