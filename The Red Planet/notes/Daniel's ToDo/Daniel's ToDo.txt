@@ -1,4 +1,7 @@
 Character controls:
+Pause menu overlay with key map and help display
+input mask which brings up pause menu when any non-mapped button is pressed
+"main menu" button on the pause menu. Escape key to go back to the main menu when game is paused
 Click-to-move and interaction for tablet/mobile users
 Call move-to-point only on acquisition instead of every frame so movement doesn't "wiggle"
 

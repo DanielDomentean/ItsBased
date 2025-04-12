@@ -1,0 +1,86 @@
+Color: AI - (Uncorrupted)/(Corrupted) 
+Planet: (Name)
+People (Summary)
+Theme: (Summary)
+Specialties: 
+Resources:
+Space Units: 
+(Heavy Hitter Unit) 
+(Regular Unit) 
+(Small Nimble Unit)
+Surface Units: 
+(Heavy Hitter Unit) 
+(Regular Unit) 
+(Small Nimble Unit)
+
+Red: Mars/Ares
+Planet: Perkwunos
+People:
+Theme: War
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+Blue: Terra/Gaia
+Planet: Degom [Earth]
+People:
+Theme: Chaos
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+Green: Venus/Aphrodite
+Planet: Haeusos
+People:
+Theme: Fecundity
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+Purple: Jove/Zeus
+Planet: 
+People:
+Theme: Wisdom
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+Teal: Mercury/Hermes
+Planet: 
+People:
+Theme: Travel
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+Yellow: Sol/Midas(?)
+Planet (Star): Dyeus
+People: N/A
+Theme: vitality, conscious
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+White: Luna/(?)
+Planet: 
+People:
+Theme: emotion, sub-conscious
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
+
+Black: Saturn/Cronus
+Planet: 
+People:
+Theme: Order
+Specialties:
+Resources:
+Space Units: 
+Surface Units: 
