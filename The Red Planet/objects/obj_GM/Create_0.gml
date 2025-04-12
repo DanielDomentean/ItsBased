@@ -16,8 +16,10 @@ calc_date = function(_totaldays, months_in_year = 24)
 {
 	var _totalmonths = _totaldays/28;
 	var _totalyears = floor(_totalmonths/months_in_year);
-	var _days =  floor(_totaldays % 28);
-	var _months =  floor(_totalmonths % months_in_year);
+	var _days = string(floor(_totaldays % 28));
+	if string_length(_days) == 1 _days = "0" + _days;
+	var _months =   string(floor(_totalmonths % months_in_year));
+	if string_length(_months) == 1 _months = "0" + _months;
 	var _datestring = string_join("-",_totalyears,_months,_days);
 	return _datestring;
 }
