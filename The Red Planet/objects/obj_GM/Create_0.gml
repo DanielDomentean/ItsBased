@@ -6,7 +6,7 @@
 // 3 : strategy
 
 gamestate = 0;
-gs_status = ["Grooming Hounds: ", "Faschia Bound: ", "Dogs of War: ", "Marshaling: "];
+gs_status = ["Grooming Hounds: ", "Faschia Bound:  ", "Dogs of War:    ", "Marshaling:     "];
 
 calc_date = function(_totaldays, months_in_year = 24)
 {
@@ -38,3 +38,4 @@ array_push(event_log, tit_venus + "Sold herself to corruption: " + string(calc_d
 array_push(event_log, tit_mercury + "Stuttered into incoherence: " + string(calc_date(t_offset_mercury)));
 array_push(event_log, mars_title + "Let slip the Dogs of War: " + string(calc_date(mars_time)));
 
+unit_payload = [];

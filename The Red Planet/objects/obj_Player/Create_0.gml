@@ -20,6 +20,9 @@ hp = 20;
 retarget_delay = 120;
 update_stuff();
 
+targ_x = x;
+targ_y = y;
+
 
 
 delayed_death = function()
@@ -47,6 +50,11 @@ take_action = function()
 	}
 	else if (place_meeting(x, y, obj_Emplacement) and obj_GM.gamestate == 3) launch();
 	else if obj_GM.gamestate == 2 blast();
+	else if obj_GM.gamestate == 3
+	{
+		var _city = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Emplacements", obj_City);
+		_city.faction = 1;
+	}
 	
 }
 

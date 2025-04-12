@@ -16,7 +16,7 @@ if (hp <= 0)
 //}
 if (int64(x) == int64(targ_x) && int64(y) == int64(targ_y)) {	// int64 here to correct a small bug - not releveant for HTML 5 target
 		targ_set = false;
-		show_debug_message("Arrived!");
+		//show_debug_message("Arrived!");
 }
 
 // taget not yet reached - move
