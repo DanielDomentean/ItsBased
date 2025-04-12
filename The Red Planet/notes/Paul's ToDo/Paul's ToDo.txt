@@ -1,6 +1,4 @@
 
-Elapsed Time Logging for lore
-
 Strategy Mode
 Construction of emplacements
 Units build pickups
