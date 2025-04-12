@@ -4,6 +4,7 @@ if (hp <= 0)
 {
 	disabled = true;
 	alarm[1] = 45;
+	speed = 0;
 	// play the death animation
 	exit;
 }
