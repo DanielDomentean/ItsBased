@@ -8,6 +8,7 @@ move_speed = 1;
 
 targ_x = x;
 targ_y = y;
+targ_set = false;
 
 alarm[0] = random_range(1,18);
 aggro_dist = 120;
@@ -57,6 +58,9 @@ find_target = function()
 		targ_y = _inst.y + random_range( -wander_dist, wander_dist );
 		// wander();
 	}
+	
+	targ_set = true;
+	show_debug_message("target set");
 }
 
 wander = function()

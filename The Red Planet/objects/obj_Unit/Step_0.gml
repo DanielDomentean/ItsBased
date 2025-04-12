@@ -8,5 +8,15 @@ if (hp <= 0)
 	exit;
 }
 
-move_towards_point(targ_x, targ_y, move_speed);
-//move_and_collide(_hor*move_speed, _ver*move_speed, [tilemap, obj_enemy_parent], undefined, undefined, undefined, move_speed, move_speed);
+// target reached
+if (x == round(targ_x) && y == round(targ_y)) {
+	targ_set = false;
+	show_debug_message("Arrived!");
+}
+
+// taget not yet reached - move
+if (targ_set) {
+	move_towards_point(targ_x, targ_y, move_speed);
+	//move_and_collide(_hor*move_speed, _ver*move_speed, [tilemap, obj_enemy_parent], undefined, undefined, undefined, move_speed, move_speed);
+}
+
