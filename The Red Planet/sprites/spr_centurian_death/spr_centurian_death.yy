@@ -61,7 +61,7 @@
     },
     "name":"spr_centurian_death",
     "playback":1,
-    "playbackSpeed":3.0,
+    "playbackSpeed":0.8,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",

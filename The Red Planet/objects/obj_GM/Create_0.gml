@@ -1,4 +1,12 @@
 
+// gamephase
+// 0 : paused, menu, etc
+// 1 : spaceship
+// 2 : ground combat
+// 3 : strategy
+
+gamestate = 0;
+gs_status = ["Grooming Hounds: ", "Faschia Bound: ", "Dogs of War: ", "Marshaling: "];
 
 calc_date = function(_totaldays, months_in_year = 24)
 {

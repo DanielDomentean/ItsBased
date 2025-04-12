@@ -2,25 +2,38 @@
 
 if room == rm_menu
 {
-	mars_status = "Grooming Hounds: ";
-	exit;
+	if gamestate != 0
+	{
+		gamestate = 0
+	}
 }
 
-if instance_exists(obj_Player_ship)
+else if instance_exists(obj_Player_ship)
 {
 	// in space combat mode
 	mars_time += random_range(0.012,0.018);
-	mars_status = "Faschia Bound: ";
+	if gamestate != 1
+	{
+		gamestate = 1
+	}
 }
+
 else if instance_exists(obj_Foe)
 {
 	// in ground combat mode
 	mars_time += random_range(0.3,0.5);
-	mars_status = "Dogs of War: ";
+	if gamestate != 2
+	{
+		gamestate = 2
+	}
 }
+
 else
 {
 	// ground strategy mode
 	mars_time += random_range(8,12);
-	mars_status = "Marshaling: ";
+	if gamestate != 3
+	{
+		gamestate = 3
+	}
 }
