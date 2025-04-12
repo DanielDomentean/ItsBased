@@ -1,6 +1,6 @@
 draw_self();
 
-draw_sprite_stretched(spr_hp, 0, x - (sprite_width/2), y - (sprite_height/2) - 10, (hp/hp_max) * hp_bar_width, 5);
+draw_sprite_stretched_ext(spr_hp, 0, x - (sprite_width/2), y - (sprite_height/2) - 10, (hp/hp_max) * hp_bar_width, 5,image_blend,0.5);
 
 // for debugging
 draw_text(x + 10, y - 20, string(x) + "/" + string(y));

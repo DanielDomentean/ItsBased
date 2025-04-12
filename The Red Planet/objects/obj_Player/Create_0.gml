@@ -21,10 +21,9 @@ update_stuff();
 
 
 
-
-
 delayed_death = function()
 {
+	speed = 0;
 	disabled = true;
 	sprite_index = spr_centurian_death;
 	alarm[1] = 120;

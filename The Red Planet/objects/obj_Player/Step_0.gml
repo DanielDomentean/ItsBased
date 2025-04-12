@@ -1,5 +1,11 @@
 if disabled exit;
 
+if hp <= 0 
+{
+	delayed_death();
+	exit;
+}
+
 if ( keyboard_check(vk_up) or keyboard_check(ord("W")) )
 {
 	y -= move_speed;
