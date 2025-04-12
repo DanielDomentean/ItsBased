@@ -57,6 +57,7 @@ find_target = function()
 		targ_y = _inst.y + random_range( -wander_dist, wander_dist );
 		// wander();
 	}
+	move_towards_point(targ_x, targ_y, move_speed);
 }
 
 wander = function()

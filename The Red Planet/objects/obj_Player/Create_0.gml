@@ -14,7 +14,7 @@ activeinput = true;
 animation_count = 0;
 
 move_speed = 1.618;
-hp = 10;
+hp = 20;
 
 retarget_delay = 120;
 update_stuff();
