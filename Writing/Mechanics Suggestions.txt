@@ -10,4 +10,4 @@ Each Overmind controls a critical resource that, once you beat them, you get acc
 
 The game would have two end states—liberation and corruption. The “liberation” ending would be an across-the-board victory, where you collapse the hive minds and free humans and AIs alike. The “corruption” ending is where you lose and Mars is corrupted into Ares.
 
-The reason I choose the Greek version of deities for their corrupt states is that the Roman versions are traditionally thought of as being the more “wholesome” or respectable. It’s from the Roman versions that the Medievals developed them as literary symbols for Christian ideas.
+The reason I choose the Greek version of deities for their corrupt states is that the Roman versions are traditionally thought of as being the more “wholesome” or respectable. It’s from the Roman versions that the Medievals developed them as literary symbols for Christian ideas. The names of the planets that I'm using, as opposed to the AIs, are derived from the names of Proto-Indo-European deities from which many European pagan pantheons (Greco-Roman, Norse, Celtic, etc.) are derived.
