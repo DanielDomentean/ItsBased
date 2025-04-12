@@ -20,7 +20,7 @@ if (int64(x) == int64(targ_x) && int64(y) == int64(targ_y)) {	// int64 here to c
 
 // taget not yet reached - move
 if (targ_set) {
-	move_towards_point(targ_x, targ_y, move_speed);
+	//move_towards_point(targ_x, targ_y, move_speed);
 	//move_and_collide(_hor*move_speed, _ver*move_speed, [tilemap, obj_enemy_parent], undefined, undefined, undefined, move_speed, move_speed);
 }
 

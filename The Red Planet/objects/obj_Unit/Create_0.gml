@@ -61,6 +61,7 @@ find_target = function()
 	}
 
 	targ_set = true;
+	move_towards_point(targ_x, targ_y, move_speed);
 	show_debug_message("target set");
 }
 
