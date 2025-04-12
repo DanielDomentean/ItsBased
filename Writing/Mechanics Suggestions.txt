@@ -1,0 +1,13 @@
+The “strategic” layer would just be a prep phase with branching decision-making that would change the disposition of player and enemy units. It would be a little light roleplaying using menus.
+
+With the “space” and “surface” layers, each enemy would have three basic units for space combat and three for surface combat—a “normal” unit, a “light” nimble unit, and a large “heavy hitter” unit. Since all the enemies share the same basic units, we distinguish them with special weapons or attack types for each. So, for instance, Mercury/Hermes might have a heavy hitter unit that split apart and tried to flank the player’s units, or Jove/Zeus with a massive energy cannon, reminiscent of Zeus wielding the thunderbolt. Each weapon or attack type is thematic and I’ll fill in the planet template with theme info.
+
+In both space and surface combat, you would have three types of nodes, repair/recharge nodes, spawn nodes, and control nodes. As time went on, more and more units would progressively spawn, so the object would be to destroy enemy units as you attempt to destroy the nodes, which reduces their capacity to spawn and repair. Once you’ve destroyed all units and captured the control node(s), that ends the combat.
+
+If you lose to an enemy, that forces you into defense, where they attack Mars and you have to prevent them from destroying your recharge and spawn nodes and capturing your control nodes. Maybe we add a fourth repair unit to restore nodes taking damage. If you lose on defense, you lose the game.
+
+Each Overmind controls a critical resource that, once you beat them, you get access to and opens up special upgrades for your units. Each of these critical resources would be something symbolic and traditionally associated with each deity.
+
+The game would have two end states—liberation and corruption. The “liberation” ending would be an across-the-board victory, where you collapse the hive minds and free humans and AIs alike. The “corruption” ending is where you lose and Mars is corrupted into Ares.
+
+The reason I choose the Greek version of deities for their corrupt states is that the Roman versions are traditionally thought of as being the more “wholesome” or respectable. It’s from the Roman versions that the Medievals developed them as literary symbols for Christian ideas.
