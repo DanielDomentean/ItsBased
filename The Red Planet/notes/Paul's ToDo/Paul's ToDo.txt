@@ -10,6 +10,7 @@ Add more unit AI
 	heal at emplacement when damaged
 
 Boss/Player actions
+	Can only launch to orbit from same-faction emplacements
 	pick up units
 	building emplacements costs units
 	store pickups
