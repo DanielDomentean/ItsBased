@@ -44,3 +44,8 @@ array_push(event_log, mars_title + "Let slip the Dogs of War: " + string(calc_da
 
 // player specific stuff
 unit_payload = [];
+
+shake_screen = function() {
+	layer_set_visible("Screen_Shake", true);
+	alarm[11] = 0.2 * global.steps_per_second;	// timer to stop screen shake
+}

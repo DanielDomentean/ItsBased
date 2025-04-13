@@ -16,7 +16,6 @@ text overlay system for the victory/failure screen.
 	Display a sprite as well, off to one side.
 
 Effects
-screen shake
 Custom particle effects (using the default "fireworks" right now) for damage, shooting, etc.
 new projectile sprite for the space battles
 room transition animations (screen fade? Ship animation?)

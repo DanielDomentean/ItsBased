@@ -8,4 +8,3 @@ _y += _lineheight;
 draw_text(10,_y,tit_venus + stat_venus + calc_date(mars_time - t_offset_venus));
 _y += _lineheight;
 draw_text(10,_y,event_log[array_length(event_log)-1]);
-
