@@ -48,7 +48,11 @@ take_action = function()
 	{
 		//room_goto(rm_travel);
 	}
-	else if (place_meeting(x, y, obj_Emplacement) and obj_GM.gamestate == 3) launch();
+	else if (place_meeting(x, y, obj_Emplacement) and obj_GM.gamestate == 3)
+	{
+		var _emp = instance_nearest(x,y,obj_Emplacement);
+		if ( _emp.faction == faction and _emp.loyalty > .8 ) launch();
+	}
 	else if obj_GM.gamestate == 2 blast();
 	else if obj_GM.gamestate == 3
 	{

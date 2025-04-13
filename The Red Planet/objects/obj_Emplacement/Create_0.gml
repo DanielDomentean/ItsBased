@@ -3,7 +3,7 @@ event_inherited();
 
 faction = 1;
 heal_rate = 1/60; // healing per day
-loyalty = 0.618;
+loyalty = 0.5;
 
 loyalty_update = function(_unit)
 {
