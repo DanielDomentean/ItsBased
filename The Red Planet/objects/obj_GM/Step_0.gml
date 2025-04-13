@@ -3,7 +3,20 @@
 
 if ( keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_tab) or keyboard_check_pressed(vk_pageup) or keyboard_check_pressed(vk_pause) )
 {
-	room_goto(rm_menu);
+	if room != rm_menu room_goto(rm_menu);
+	else
+	{
+		// toggle the help menu display here
+		var lay_id = layer_get_id("Help");
+		if (layer_get_visible(lay_id))
+		{
+		    layer_set_visible(lay_id, false);
+		}
+		else
+		{
+		    layer_set_visible(lay_id, true);
+		}
+	}
 }
 
 if room == rm_menu
