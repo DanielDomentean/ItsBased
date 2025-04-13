@@ -1,6 +1,6 @@
 if room == rm_menu
 {
-	room_goto(rm_travel);
+	room_goto(obj_GM.last_room);
 }
 else room_goto(rm_menu);
 

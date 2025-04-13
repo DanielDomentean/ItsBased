@@ -19,3 +19,5 @@ Ship Combat
 	ship effects from unit payload
 	Remember orbital remaining
 	orbital strikes in ground mode
+	landed ship sprite matches sprite in ship combat
+	launch from landed ship only takes units with the appropriate capacity

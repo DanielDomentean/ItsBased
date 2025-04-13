@@ -34,6 +34,7 @@ if ( keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_control) )
 {
 	take_action();
 	loginput();
+	if room == rm_menu alarm[0] = -1;
 }
 
 // Inherit the parent event
@@ -41,4 +42,3 @@ if (not activeinput)
 {
 	event_inherited();
 }
-else speed = 0;

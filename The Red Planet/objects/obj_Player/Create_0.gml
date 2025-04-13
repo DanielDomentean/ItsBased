@@ -31,7 +31,22 @@ delayed_death = function()
 	disabled = true;
 	sprite_index = spr_centurian_death;
 	alarm[1] = 180;
-	delayed_action = game_restart;
+	delayed_action = last_chance;
+}
+
+last_chance = function()
+{
+	if hp <= 0 game_restart();
+	else
+	{
+		direction = 90;
+		speed = move_speed * 1.618;
+		disabled = false;
+		sprite_index = spr_centurian_sprite;
+		alarm[1] = -1;
+		delayed_action = delayed_death;
+	}
+	
 }
 
 delayed_action = delayed_death;
@@ -40,6 +55,9 @@ loginput = function(_input = "any")
 {
 	activeinput = true;
 	alarm[0] = 60;
+	// so we can get auto-targeting even when using manual overrides
+	find_target();
+	speed = 0;
 }
 
 take_action = function()

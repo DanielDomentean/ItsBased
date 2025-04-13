@@ -42,8 +42,13 @@ array_push(event_log, tit_mercury + "Stuttered into incoherence: " + string(calc
 array_push(event_log, mars_title + "Let slip the Dogs of War: " + string(calc_date(mars_time)));
 
 
+// room tracking so we can go back to where we were from the menu screen
+last_room = rm_lvl_Mars;
+
 // player specific stuff
 unit_payload = [];
+
+// GUI and game juice
 
 shake_screen = function() {
 	layer_set_visible("Screen_Shake", true);

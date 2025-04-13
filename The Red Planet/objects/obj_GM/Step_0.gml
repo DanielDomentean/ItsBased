@@ -1,5 +1,11 @@
 // determine the current game mode
 
+
+if ( keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_tab) or keyboard_check_pressed(vk_pageup) or keyboard_check_pressed(vk_pause) )
+{
+	room_goto(rm_menu);
+}
+
 if room == rm_menu
 {
 	
@@ -20,7 +26,7 @@ else if instance_exists(obj_Player_ship)
 	}
 }
 
-else if instance_exists(obj_Foe)
+else if ( instance_exists(obj_Foe) or instance_exists(obj_Bullett) )
 {
 	// in ground combat mode
 	dayrate = random_range(0.3,0.5);
