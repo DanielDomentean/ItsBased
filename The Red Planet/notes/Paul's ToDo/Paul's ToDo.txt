@@ -10,7 +10,7 @@ Add more unit AI
 	spread out
 	away from player
 	get pickups
-	heal at emplacement (emplacements need to heal units!)
+	heal at emplacement when damaged
 
 Boss/Player actions
 	pick up units
