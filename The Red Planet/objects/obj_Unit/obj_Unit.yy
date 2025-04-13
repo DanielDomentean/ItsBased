@@ -18,8 +18,8 @@
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_Pickup",
-    "path":"objects/obj_Pickup/obj_Pickup.yy",
+    "name":"obj_Capturable",
+    "path":"objects/obj_Capturable/obj_Capturable.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

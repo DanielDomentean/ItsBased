@@ -1,0 +1,1 @@
+draw_sprite(spr_reticle,pickup_progress*4,guix*2,guiy*2);

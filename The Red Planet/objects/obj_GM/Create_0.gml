@@ -8,6 +8,9 @@
 gamestate = 0;
 gs_status = ["Grooming Hounds: ", "Faschia Bound:  ", "Dogs of War:    ", "Marshaling:     "];
 
+// number of days that pass per frame of game-time
+dayrate = 0;
+
 calc_date = function(_totaldays, months_in_year = 24)
 {
 	var _totalmonths = _totaldays/28;
