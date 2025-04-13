@@ -16,6 +16,8 @@ if ( keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_tab) or keyb
 		{
 		    layer_set_visible(lay_id, true);
 		}
+		obj_Player.alarm[0] = -1;
+		obj_Player.speed = 0;
 	}
 }
 
