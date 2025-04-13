@@ -1,12 +1,12 @@
 
 Strategy Mode
-	Units build pickups
-	emplacements build units
+	emplacements build units (1 per emplacement?)
 
 Add more unit AI
 	spread out
 	away from player
 	get pickups
+	Units build pickups in strategy mode
 	heal at emplacement when damaged
 
 Boss/Player actions
