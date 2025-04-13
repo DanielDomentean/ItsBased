@@ -25,7 +25,10 @@ take_action = function()
 	if ( (y < 60 or not instance_exists(obj_Foe_ship) ) )
 	{
 		if room == rm_lvl_Venus_Orbital room_goto(rm_lvl_Venus);
-		else if room == rm_travel room_goto(rm_lvl_Mars);
+		else if room == rm_travel
+		{
+			//room_goto(rm_lvl_Mars);
+		}
 	}
 	else blast();
 }

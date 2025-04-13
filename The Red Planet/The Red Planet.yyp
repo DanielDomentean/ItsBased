@@ -70,6 +70,7 @@
     {"id":{"name":"spr_centurian_death","path":"sprites/spr_centurian_death/spr_centurian_death.yy",},},
     {"id":{"name":"spr_centurian_sprite","path":"sprites/spr_centurian_sprite/spr_centurian_sprite.yy",},},
     {"id":{"name":"spr_city","path":"sprites/spr_city/spr_city.yy",},},
+    {"id":{"name":"spr_flag","path":"sprites/spr_flag/spr_flag.yy",},},
     {"id":{"name":"spr_hp","path":"sprites/spr_hp/spr_hp.yy",},},
     {"id":{"name":"spr_Mars","path":"sprites/spr_Mars/spr_Mars.yy",},},
     {"id":{"name":"spr_Pickup","path":"sprites/spr_Pickup/spr_Pickup.yy",},},

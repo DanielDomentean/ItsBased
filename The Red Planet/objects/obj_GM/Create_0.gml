@@ -41,4 +41,6 @@ array_push(event_log, tit_venus + "Sold herself to corruption: " + string(calc_d
 array_push(event_log, tit_mercury + "Stuttered into incoherence: " + string(calc_date(t_offset_mercury)));
 array_push(event_log, mars_title + "Let slip the Dogs of War: " + string(calc_date(mars_time)));
 
+
+// player specific stuff
 unit_payload = [];

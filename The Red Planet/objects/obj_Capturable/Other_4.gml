@@ -1,0 +1,1 @@
+image_blend = global.faction_colors[faction];

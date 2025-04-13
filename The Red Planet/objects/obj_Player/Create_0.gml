@@ -46,7 +46,7 @@ take_action = function()
 {
 	if room == rm_menu
 	{
-		room_goto(rm_travel);
+		//room_goto(rm_travel);
 	}
 	else if (place_meeting(x, y, obj_Emplacement) and obj_GM.gamestate == 3) launch();
 	else if obj_GM.gamestate == 2 blast();
@@ -54,6 +54,7 @@ take_action = function()
 	{
 		var _city = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Emplacements", obj_City);
 		_city.faction = 1;
+		_city.image_blend = global.faction_colors[faction];
 	}
 	
 }

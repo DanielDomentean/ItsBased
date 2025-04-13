@@ -1,7 +1,4 @@
 
-Pickup system
-	Capturing
-
 Strategy Mode
 	Units build pickups
 	emplacements build units

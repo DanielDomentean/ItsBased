@@ -2,5 +2,5 @@
 event_inherited();
 
 faction = 1;
-image_blend = make_color_hsv(0,100,255);
+//image_blend = global.faction_colors[faction];
 shootdir = 90;
