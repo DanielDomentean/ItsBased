@@ -1,7 +1,4 @@
 
-Strategy Mode
-	emplacements build units (1 per emplacement?)
-
 Add more unit AI
 	spread out
 	away from player

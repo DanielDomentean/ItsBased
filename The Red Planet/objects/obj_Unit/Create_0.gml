@@ -30,6 +30,7 @@ faction = 2;
 update_stuff = function()
 {
 	hp_max = hp;
+	image_blend = global.faction_colors[faction];
 }
 
 faction_friends = [obj_Unit,obj_Friend,obj_Foe];
