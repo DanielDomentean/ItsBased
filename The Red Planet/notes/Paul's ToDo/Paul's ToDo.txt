@@ -1,5 +1,6 @@
 try testing gameplay in the main menu (it should work?)
 	may need to re-order the obj_GM phase determination code
+	nope! works somehow!
 
 Player actions
 	pick up units
