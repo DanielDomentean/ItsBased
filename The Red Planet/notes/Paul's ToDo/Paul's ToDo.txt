@@ -1,25 +1,31 @@
+try testing gameplay in the main menu (it should work?)
+	may need to re-order the obj_GM phase determination code
 
-Add more unit AI
-	spread out
-	away from player
-	get pickups (limit to number?)
-	Units build pickups in strategy mode (limited number?)
-	heal at emplacement when damaged
-
-Boss/Player actions
+Player actions
 	pick up units
 	building emplacements costs units
-	store pickups and apply to picked up units
 	deploy units on landing (including the player, or you won't keep your upgrades)
-	
+		deployment cooldown (for all emplacements).
+		player deploys last.
+
+Add Mercury location
+
 Boss Battles
 	Boss projectiles
 	Boss phases
 	Boss death tracking
 	Game victory (after some number of days elapsed, PC healed, etc.)
 
+Implement new unit types
+	healing venus units
+		venus combat by capture?
+	Mercury units
+		reflected sunlight attacks
+
+UI stuff
+	Check Daniel's list for anything important that remains undone
+
 Ship Combat
-	
 	ship effects from unit payload
 	Remember orbital remaining
 	orbital strikes in ground mode
@@ -28,8 +34,41 @@ Ship Combat
 	launch from landed ship only takes units with the appropriate capacity
 
 Polish
-	travel mode in phase 2 instead of 3
+	travel mode in phase 2 instead of 1
 	event logging for bosses
 	story mode
 		start and end story
 		story for minor events
+	Can't build emplacements when too near an existing emplacement?
+	building cities takes time?
+		Use the "loyalty" as a placeholder for this.
+		loyalty as multiplier for production and heal speed
+	build other emplacement types?
+
+Add more unit AI
+	spread out
+	away from player
+	distance from enemies
+	heal at emplacement when damaged
+	Units build pickups in strategy mode (limited number?)
+	get pickups (limit to number?)
+	player stores pickups and apply to picked up units
+	units have a chance of dropping pickups on death
+
+Spruce up the overworld
+	Add Jupiter (and boss)
+	Add Saturn (and boss)
+	procgen moon encounters (non-persistent)
+
+Balance
+	Player is too powerful? (maybe not?)
+	balance pickup drop rate
+	balance pickup power
+	balance idle times
+		especially for the player character
+		based on game phase?
+		based on hp? (re-prioritize)
+
+Auto-play
+	Get the player character to play the whole game by itself?
+	NG+?
