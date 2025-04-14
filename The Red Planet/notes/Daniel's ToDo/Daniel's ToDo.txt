@@ -1,20 +1,22 @@
 Character controls:
-Pause menu overlay with key map and help display (toggle on when escape to menu from menu)
-"main menu" button on the pause menu.
-Click-to-move and interaction for tablet/mobile users
+Pause menu overlay with key map and help display
+Click-to-move + action and interaction for tablet/mobile users
+gamepad + controller support
 
 UI elements:
-Current faction presence on each of the planets maybe?
-move unit faction color from unit image_blend to obj_GM for easier tracking and adjustment
-faction color image_blend for planets to indicate faction control (convert all planets to Red Planets!)
+faction color image_blend for planets to indicate faction control (convert all planets to Red Planets! Game Jam Theming!)
 faction color image_blend on bullets
-A player inventory bar somewhere on the side of the screen?
+A player inventory bar somewhere on the side of the screen
 	need UI with 1,2,4,8 slots for 4 ship sizes
-text overlay system for the victory/failure screen.
+	use the reticle sprite image 0 for inventory slots
+	spaceship spawns on "launch"
+		Don't forget to add a "next location" to all rooms
+text overlay system for the victory/failure/lore screens.
 	darkens the screen and scrolls some text.
-	Display a sprite as well, off to one side.
+	Display a sprite as well, off to one side?
+	Add "story mode" object to the main menu
 
 Effects
 Custom particle effects (using the default "fireworks" right now) for damage, shooting, etc.
 new projectile sprite for the space battles
-room transition animations (screen fade? Ship animation?)
+room transition animations (screen fade?)
