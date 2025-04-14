@@ -2,19 +2,34 @@
 Add more unit AI
 	spread out
 	away from player
-	get pickups
-	Units build pickups in strategy mode
+	get pickups (limit to number?)
+	Units build pickups in strategy mode (limited number?)
 	heal at emplacement when damaged
 
 Boss/Player actions
 	pick up units
 	building emplacements costs units
-	store pickups
+	store pickups and apply to picked up units
 	deploy units on landing (including the player, or you won't keep your upgrades)
+	
+Boss Battles
+	Boss projectiles
+	Boss phases
+	Boss death tracking
+	Game victory (after some number of days elapsed, PC healed, etc.)
 
 Ship Combat
+	
 	ship effects from unit payload
 	Remember orbital remaining
 	orbital strikes in ground mode
+	different sprite for ship projectiles
 	landed ship sprite matches sprite in ship combat
 	launch from landed ship only takes units with the appropriate capacity
+
+Polish
+	travel mode in phase 2 instead of 3
+	event logging for bosses
+	story mode
+		start and end story
+		story for minor events
