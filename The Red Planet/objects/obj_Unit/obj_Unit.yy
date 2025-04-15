@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_venusian_sprite",
-    "path":"sprites/spr_venusian_sprite/spr_venusian_sprite.yy",
+    "name":"spr_flag",
+    "path":"sprites/spr_flag/spr_flag.yy",
   },
   "spriteMaskId":null,
   "visible":true,

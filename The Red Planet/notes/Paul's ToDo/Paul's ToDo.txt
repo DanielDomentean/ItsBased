@@ -1,6 +1,5 @@
 
 Implement new unit types
-	projectile speed controlled by unit?
 	healing venus units
 		venus combat by capture?
 	Mercury units

@@ -65,3 +65,5 @@ shake_screen = function() {
 	layer_set_visible("Screen_Shake", true);
 	alarm[11] = 0.2 * global.steps_per_second;	// timer to stop screen shake
 }
+
+room_goto(rm_Venus); // testing

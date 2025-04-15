@@ -64,6 +64,7 @@
     {"id":{"name":"obj_Unit","path":"objects/obj_Unit/obj_Unit.yy",},},
     {"id":{"name":"obj_Vb_proj_1","path":"objects/obj_Vb_proj_1/obj_Vb_proj_1.yy",},},
     {"id":{"name":"obj_vboss","path":"objects/obj_vboss/obj_vboss.yy",},},
+    {"id":{"name":"obj_venus_grunt","path":"objects/obj_venus_grunt/obj_venus_grunt.yy",},},
     {"id":{"name":"rm_lvl_Mars","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},},
     {"id":{"name":"rm_lvl_Mercury_Orbital","path":"rooms/rm_lvl_Mercury_Orbital/rm_lvl_Mercury_Orbital.yy",},},
     {"id":{"name":"rm_lvl_Moon","path":"rooms/rm_lvl_Moon/rm_lvl_Moon.yy",},},
