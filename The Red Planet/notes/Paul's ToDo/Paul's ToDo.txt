@@ -1,5 +1,6 @@
 
 Boss Battles
+	Boss sprites
 	Boss projectiles
 	Boss phases
 	Boss death tracking
