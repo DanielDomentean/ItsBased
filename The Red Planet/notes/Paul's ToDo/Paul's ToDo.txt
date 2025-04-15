@@ -6,6 +6,7 @@ Boss Battles
 	Game victory (after some number of days elapsed, PC healed, etc.)
 
 Implement new unit types
+	projectile speed controlled by unit?
 	healing venus units
 		venus combat by capture?
 	Mercury units
@@ -33,6 +34,8 @@ Polish
 		Use the "loyalty" as a placeholder for this.
 		loyalty as multiplier for production and heal speed
 	build other emplacement types?
+	polish boss combat
+		flame attacks slow down
 
 Add more unit AI
 	spread out
