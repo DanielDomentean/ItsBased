@@ -84,11 +84,12 @@ take_action = function()
 		if ( _emp.faction == faction and _emp.loyalty > .8 ) launch();
 	}
 	else if obj_GM.gamestate == 2 blast();
-	else if obj_GM.gamestate == 3
+	else if ( obj_GM.gamestate == 3 and array_length( obj_GM.unit_payload ) > 1 )
 	{
 		var _city = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Emplacements", obj_City);
 		_city.faction = 1;
 		_city.image_blend = global.faction_colors[faction];
+		array_delete(obj_GM.unit_payload, 0, 2);
 	}
 	
 }
