@@ -1,5 +1,4 @@
 Character controls:
-Pause menu overlay with key map and help display
 Click-to-move + action and interaction for tablet/mobile users
 gamepad + controller support
 numpad controls (8-way directional)
