@@ -11,4 +11,5 @@ update_stuff = function()
 	image_angle = direction;
 	image_xscale = random_range(1,2) + contact_dmg;
 	image_yscale = random_range(1,3)/2;
+	image_blend = global.faction_colors[faction];
 }

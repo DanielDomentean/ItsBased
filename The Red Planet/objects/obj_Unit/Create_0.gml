@@ -29,12 +29,12 @@ faction = 2;
 
 update_stuff = function()
 {
-	hp_max = hp;
+	hp = hp_max;
 	image_blend = global.faction_colors[faction];
 }
 
-faction_friends = [obj_Unit,obj_Friend,obj_Foe];
-faction_foes    = [obj_Unit,obj_Foe,obj_Friend];
+faction_friends = [obj_Unit,obj_Friend,obj_Foe,obj_Foe];
+faction_foes    = [obj_Unit,obj_Foe,obj_Friend,obj_Friend];
 
 find_target = function()
 {
@@ -73,11 +73,14 @@ wander = function()
 	alarm[2] = -1;
 }
 
+projectile = obj_Bullett;
+
 shoot = function()
 {
-	var _blt = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Instances", obj_Bullett);
+	var _blt = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Instances", projectile);
 		_blt.direction = point_direction(x,y,targ_x,targ_y);
 		_blt.direction += random_range(-spread,spread)
 		_blt.faction = faction;
+		_blt.contact_dmg = pow * random_range(0.618,1.618);
 		_blt.update_stuff();
 }

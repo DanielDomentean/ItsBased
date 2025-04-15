@@ -6,7 +6,6 @@ numpad controls (8-way directional)
 
 UI elements:
 faction color image_blend for planets to indicate faction control (convert all planets to Red Planets! Game Jam Theming!)
-faction color image_blend on bullets
 spaceship spawns on "launch"
 	Don't forget to add a "next location" to all rooms
 text overlay system for the victory/failure/lore screens.
