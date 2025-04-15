@@ -16,6 +16,7 @@ production_update = function()
 		var _unit_type = obj_Foe;
 		if faction == 1 _unit_type = choose(obj_RedGrunt,obj_RedGrunt,obj_RedElite);
 		else if faction == 2 _unit_type = choose(obj_venus_grunt,obj_venus_grunt,obj_venus_healer);
+		else if faction == 3 _unit_type = choose(obj_mercury_grunt,obj_mercury_grunt,obj_mercury_elite);
 		var _unt = instance_create_layer(x+random_range(-sprite_width,sprite_width), y+random_range(-sprite_height,sprite_height), "Instances", _unit_type);
 		_unt.faction = faction;
 		_unt.update_stuff();

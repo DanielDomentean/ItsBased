@@ -1,8 +1,4 @@
 
-Implement new unit types
-	Mercury units
-		reflected sunlight attacks
-
 UI stuff
 	Check Daniel's list for anything important that remains undone
 

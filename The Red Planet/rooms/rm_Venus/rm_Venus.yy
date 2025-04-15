@@ -16,6 +16,7 @@
     {"name":"inst_369FEE76","path":"rooms/rm_Venus/rm_Venus.yy",},
     {"name":"inst_377D9F87","path":"rooms/rm_Venus/rm_Venus.yy",},
     {"name":"inst_7798026D","path":"rooms/rm_Venus/rm_Venus.yy",},
+    {"name":"inst_4804C85B","path":"rooms/rm_Venus/rm_Venus.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -36,6 +37,7 @@
     {"$GMRInstanceLayer":"","%Name":"Emplacements","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_1CD1F400","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CD1F400","objectId":{"name":"obj_Landed_Ship","path":"objects/obj_Landed_Ship/obj_Landed_Ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":448.0,"y":128.0,},
         {"$GMRInstance":"v2","%Name":"inst_293527DA","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_293527DA","objectId":{"name":"obj_City","path":"objects/obj_City/obj_City.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4804C85B","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4804C85B","objectId":{"name":"obj_City","path":"objects/obj_City/obj_City.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":497.0,"y":202.0,},
       ],"layers":[],"name":"Emplacements","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_21738466_1","animationSpeed":1.0,"colour":4285361517,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_21738466_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"spriteId":{"name":"spr_venus","path":"sprites/spr_venus/spr_venus.yy",},"x":320.0,"y":224.0,},

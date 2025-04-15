@@ -51,7 +51,11 @@ for (var i = 0; i < 4; i += 1)
 	_iy = _iyc + _iyp * i;
 	for (var j = 0; j < 2; j += 1)
 	{
-		if k < l _dspr = spr_RedSoldier;
+		if k < l
+		{
+			if unit_payload[k] == obj_RedElite _dspr = spr_EliteRed;
+			else _dspr = spr_RedSoldier;
+		}
 		else _dspr = _ispr;
 		_ix  = _ixc - _ixp * j;
 		draw_sprite(_dspr,0,_ix,_iy);

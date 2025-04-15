@@ -1,19 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_RedElite",
+  "%Name":"obj_mercury_grunt",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_RedElite",
+  "name":"obj_mercury_grunt",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
   "parentObjectId":{
-    "name":"obj_RedGrunt",
-    "path":"objects/obj_RedGrunt/obj_RedGrunt.yy",
+    "name":"obj_Foe",
+    "path":"objects/obj_Foe/obj_Foe.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_EliteRed",
-    "path":"sprites/spr_EliteRed/spr_EliteRed.yy",
+    "name":"spr_mersurian_grunt",
+    "path":"sprites/spr_mersurian_grunt/spr_mersurian_grunt.yy",
   },
   "spriteMaskId":null,
   "visible":true,

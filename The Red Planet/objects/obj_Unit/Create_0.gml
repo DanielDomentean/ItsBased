@@ -12,7 +12,7 @@ targ_set = false;
 
 alarm[0] = random_range(50,75);
 aggro_dist = 90;
-wander_dist = 40;
+wander_dist = 50;
 
 hp = 4;
 hp_max = hp;
