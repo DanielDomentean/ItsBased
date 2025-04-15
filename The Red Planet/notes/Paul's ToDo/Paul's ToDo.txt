@@ -1,7 +1,5 @@
 
 Boss Battles
-	Mercury Boss projectiles
-	Mercury Boss phases
 	Boss death tracking
 	Game victory (after some number of days elapsed, PC healed, etc.)
 

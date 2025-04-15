@@ -1,7 +1,7 @@
 draw_self();
 
-draw_sprite_stretched_ext(spr_hp, 0, x - (sprite_width/2), y - (sprite_height/2) - 10, hp_bar_width, 5,c_dkgray,0.3);
-draw_sprite_stretched_ext(spr_hp, 0, x - (sprite_width/2), y - (sprite_height/2) - 10, (hp/hp_max) * hp_bar_width, 5,image_blend,0.5);
+draw_sprite_stretched_ext(spr_hp, 0, x - (sprite_width/2), y - (sprite_height/2) - 10, hp_bar_width, 5, c_dkgray,0.3);
+draw_sprite_stretched_ext(spr_hp, 0, x - (sprite_width/2), y - (sprite_height/2) - 10, (hp/hp_max) * hp_bar_width, 7, image_blend,0.5);
 
 // for debugging
 exit;

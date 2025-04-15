@@ -45,6 +45,8 @@ array_push(event_log, mars_title + "Let slip the Dogs of War: " + string(calc_da
 
 // room tracking so we can go back to where we were from the menu screen
 last_room = rm_lvl_Mars;
+//last_room = rm_Mercury; // for testing the mercury boss fight
+//last_room = rm_Venus; // for testing the venus boss fight
 
 // player specific stuff
 unit_payload = [];
