@@ -37,8 +37,8 @@ t_offset_venus= t_offset_mercury - random_range(25694,129845);
 stat_venus = "Defiled Queen: ";
 
 bosses_living = 2;
-bosses_living = 0;
-alarm[0] = 20; // victory test
+//bosses_living = 0;
+//alarm[0] = 20; // victory test
 
 event_log = [];
 array_push(event_log, tit_venus + "Sold herself to corruption: " + string(calc_date(t_offset_venus)));
