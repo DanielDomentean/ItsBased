@@ -66,4 +66,4 @@ shake_screen = function() {
 	alarm[11] = 0.2 * global.steps_per_second;	// timer to stop screen shake
 }
 
-room_goto(rm_Venus); // testing
+//room_goto(rm_Venus); // testing

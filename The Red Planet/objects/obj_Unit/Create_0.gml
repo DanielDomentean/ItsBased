@@ -25,7 +25,7 @@ d_jit = 8;
 shots = 1;
 jit = 2;
 spread = 2;
-faction = 2;
+faction = 0;
 
 update_stuff = function()
 {

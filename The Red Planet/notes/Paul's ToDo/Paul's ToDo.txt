@@ -1,7 +1,5 @@
 
 Implement new unit types
-	healing venus units
-		venus combat by capture?
 	Mercury units
 		reflected sunlight attacks
 
