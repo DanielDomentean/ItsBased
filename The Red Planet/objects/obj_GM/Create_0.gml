@@ -5,6 +5,7 @@
 // 2 : ground combat
 // 3 : strategy
 
+player_lives = 1;
 gamestate = 0;
 gs_status = ["Grooming Hounds: ", "Faschia Bound:  ", "Dogs of War:    ", "Marshaling:     "];
 

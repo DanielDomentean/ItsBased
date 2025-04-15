@@ -73,7 +73,7 @@ take_action = function()
 		
 		if ( array_length(obj_GM.unit_payload) < 8 ) 
 		{
-			array_push(obj_GM.unit_payload, _unit);
+			array_push(obj_GM.unit_payload, _unit.object_index);
 			instance_destroy( _unit );
 		}
 		else obj_GM.shake_screen();
@@ -82,14 +82,20 @@ take_action = function()
 	{ // build emplacement
 		var _emp = instance_nearest(x,y,obj_Emplacement);
 		if ( _emp.faction == faction and _emp.loyalty > .8 ) launch();
+		else obj_GM.shake_screen();
 	}
 	else if obj_GM.gamestate == 2 blast();
-	else if ( obj_GM.gamestate == 3 and array_length( obj_GM.unit_payload ) > 1 )
+	else if ( obj_GM.gamestate == 3 )
 	{
-		var _city = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Emplacements", obj_City);
-		_city.faction = 1;
-		_city.image_blend = global.faction_colors[faction];
-		array_delete(obj_GM.unit_payload, 0, 2);
+		if (array_length( obj_GM.unit_payload ) > 1 )
+		{
+			var _city = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Emplacements", obj_City);
+			_city.faction = 1;
+			_city.image_blend = global.faction_colors[faction];
+			_city.loyalty = 0.01
+			array_delete(obj_GM.unit_payload, 0, 2);
+		}
+		else obj_GM.shake_screen();
 	}
 	
 }
@@ -107,6 +113,7 @@ blast = function()
 
 launch = function()
 {
+	obj_GM.player_lives += 1;
 	room_goto(rm_travel);
 }
 

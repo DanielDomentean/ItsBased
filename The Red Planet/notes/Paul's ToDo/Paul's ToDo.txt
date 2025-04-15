@@ -1,9 +1,4 @@
 
-Player actions
-	deploy units on landing (including the player, or you won't keep your upgrades)
-		deployment cooldown (for all emplacements).
-		player deploys last.
-
 Add Mercury location
 
 Boss Battles
@@ -50,6 +45,7 @@ Add more unit AI
 	get pickups (limit to number?)
 	player stores pickups and apply to picked up units
 	units have a chance of dropping pickups on death
+	player stats carry over between levels (store in GM?)
 
 Spruce up the overworld
 	Add Jupiter (and boss)
