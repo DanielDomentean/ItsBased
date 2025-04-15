@@ -1,6 +1,4 @@
 
-Add Mercury location
-
 Boss Battles
 	Boss projectiles
 	Boss phases
