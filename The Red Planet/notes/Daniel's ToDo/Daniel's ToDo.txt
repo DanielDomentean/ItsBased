@@ -7,11 +7,8 @@ numpad controls (8-way directional)
 UI elements:
 faction color image_blend for planets to indicate faction control (convert all planets to Red Planets! Game Jam Theming!)
 faction color image_blend on bullets
-A player inventory bar somewhere on the side of the screen
-	need UI with 1,2,4,8 slots for 4 ship sizes
-	use the reticle sprite image 0 for inventory slots
-	spaceship spawns on "launch"
-		Don't forget to add a "next location" to all rooms
+spaceship spawns on "launch"
+	Don't forget to add a "next location" to all rooms
 text overlay system for the victory/failure/lore screens.
 	darkens the screen and scrolls some text.
 	Display a sprite as well, off to one side?

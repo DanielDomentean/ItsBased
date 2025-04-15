@@ -71,7 +71,7 @@ take_action = function()
 	{ // pick up unit
 		var _unit = instance_nearest(x,y,obj_RedGrunt);
 		
-		if ( array_length(obj_GM.unit_payload) < 2 ) 
+		if ( array_length(obj_GM.unit_payload) < 8 ) 
 		{
 			array_push(obj_GM.unit_payload, _unit);
 			instance_destroy( _unit );
