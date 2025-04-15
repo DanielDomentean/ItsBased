@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_centurian_sprite",
-    "path":"sprites/spr_centurian_sprite/spr_centurian_sprite.yy",
+    "name":"spr_PlayerCharacter",
+    "path":"sprites/spr_PlayerCharacter/spr_PlayerCharacter.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -68,7 +68,7 @@ if phase == 2
 
 if phase == 3
 {
-	hp += 0.1;
+	if not disabled hp -= 0.1;
 }
 
 if disabled speed = 0;

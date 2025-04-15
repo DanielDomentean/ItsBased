@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-speed = random_range(1.618,2.618);
+speed = random_range(5.618,10.618);

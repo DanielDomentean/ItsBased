@@ -1,8 +1,4 @@
 
-Boss Battles
-	Boss death tracking
-	Game victory (after some number of days elapsed, PC healed, etc.)
-
 Implement new unit types
 	projectile speed controlled by unit?
 	healing venus units
@@ -20,20 +16,19 @@ Ship Combat
 	different sprite for ship projectiles
 	landed ship sprite matches sprite in ship combat
 	launch from landed ship only takes units with the appropriate capacity
+	more enemy ship types
 
 Polish
 	travel mode in phase 2 instead of 1
-	event logging for bosses
 	story mode
 		start and end story
 		story for minor events
 	Can't build emplacements when too near an existing emplacement?
 	building cities takes time?
-		Use the "loyalty" as a placeholder for this.
+		Use the "loyalty" as a placeholder for this. (already implemented?)
 		loyalty as multiplier for production and heal speed
 	build other emplacement types?
 	polish boss combat
-		flame attacks slow down
 
 Add more unit AI
 	spread out

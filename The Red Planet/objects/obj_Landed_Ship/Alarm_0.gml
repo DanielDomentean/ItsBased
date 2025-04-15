@@ -4,8 +4,6 @@ var jit = 32;
 if ( ( not instance_exists(obj_Player)) and obj_GM.player_lives > 0 )
 {
 	var _player = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Instances", obj_Player);
-	_player.image_xscale = 2;
-	_player.image_yscale = 2;
 	obj_GM.player_lives -= 1;
 }
 	

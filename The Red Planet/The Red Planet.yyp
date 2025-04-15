@@ -35,6 +35,7 @@
   },
   "name":"The Red Planet",
   "resources":[
+    {"id":{"name":"fnt_calibri_large","path":"fonts/fnt_calibri_large/fnt_calibri_large.yy",},},
     {"id":{"name":"fnt_calibri_medium","path":"fonts/fnt_calibri_medium/fnt_calibri_medium.yy",},},
     {"id":{"name":"Daniel's ToDo","path":"notes/Daniel's ToDo/Daniel's ToDo.yy",},},
     {"id":{"name":"Paul's ToDo","path":"notes/Paul's ToDo/Paul's ToDo.yy",},},
@@ -71,6 +72,7 @@
     {"id":{"name":"rm_Mercury","path":"rooms/rm_Mercury/rm_Mercury.yy",},},
     {"id":{"name":"rm_travel","path":"rooms/rm_travel/rm_travel.yy",},},
     {"id":{"name":"rm_Venus","path":"rooms/rm_Venus/rm_Venus.yy",},},
+    {"id":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
     {"id":{"name":"scrpt_setup","path":"scripts/scrpt_setup/scrpt_setup.yy",},},
     {"id":{"name":"snd_beww","path":"sounds/snd_beww/snd_beww.yy",},},
     {"id":{"name":"snd_Phekh","path":"sounds/snd_Phekh/snd_Phekh.yy",},},
@@ -89,6 +91,7 @@
     {"id":{"name":"spr_Mercury_boss_3","path":"sprites/spr_Mercury_boss_3/spr_Mercury_boss_3.yy",},},
     {"id":{"name":"spr_Mercury","path":"sprites/spr_Mercury/spr_Mercury.yy",},},
     {"id":{"name":"spr_Pickup","path":"sprites/spr_Pickup/spr_Pickup.yy",},},
+    {"id":{"name":"spr_PlayerCharacter","path":"sprites/spr_PlayerCharacter/spr_PlayerCharacter.yy",},},
     {"id":{"name":"spr_RedSoldier","path":"sprites/spr_RedSoldier/spr_RedSoldier.yy",},},
     {"id":{"name":"spr_reticle","path":"sprites/spr_reticle/spr_reticle.yy",},},
     {"id":{"name":"spr_ship03","path":"sprites/spr_ship03/spr_ship03.yy",},},
@@ -115,6 +118,7 @@
     {"roomId":{"name":"rm_Venus","path":"rooms/rm_Venus/rm_Venus.yy",},},
     {"roomId":{"name":"rm_lvl_Mercury_Orbital","path":"rooms/rm_lvl_Mercury_Orbital/rm_lvl_Mercury_Orbital.yy",},},
     {"roomId":{"name":"rm_Mercury","path":"rooms/rm_Mercury/rm_Mercury.yy",},},
+    {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

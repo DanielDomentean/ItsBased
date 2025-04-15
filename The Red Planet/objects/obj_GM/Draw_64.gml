@@ -1,6 +1,13 @@
 var _y = 10;
 var _lineheight = 14;
 
+if room == rm_victory
+{
+	_lineheight = 20;
+	draw_set_font(fnt_calibri_large);
+}
+else draw_set_font(fnt_calibri_medium);
+
 draw_text(10,_y,mars_title + gs_status[gamestate] + calc_date(mars_time));
 _y += _lineheight;
 draw_text(10,_y,tit_mercury + stat_mercury + calc_date(mars_time - t_offset_mercury));
@@ -8,6 +15,19 @@ _y += _lineheight;
 draw_text(10,_y,tit_venus + stat_venus + calc_date(mars_time - t_offset_venus));
 _y += _lineheight;
 draw_text(10,_y,event_log[array_length(event_log)-1]);
+
+if room == rm_victory
+{
+	_y += _lineheight*2.618;
+	draw_text(50,_y,"After a great struggle, the red planet prevails!");
+	_y += _lineheight;
+	draw_text(80,_y,"An age of peace reigns. Congratulations " + mars_title);
+	_y += _lineheight;
+	draw_text(100,_y,"(You beat the game!)");
+	_y += _lineheight;
+	
+}
+else draw_set_font(fnt_calibri_medium);
 
 
 // player inventory bar
