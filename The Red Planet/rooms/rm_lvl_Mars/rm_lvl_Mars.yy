@@ -7,11 +7,12 @@
   "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_AF275D","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
-    {"name":"inst_34469DB3","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
-    {"name":"inst_66799EC8","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
     {"name":"inst_5D2CC215","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
     {"name":"inst_3B3B3A87","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
     {"name":"inst_7679DA09","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_1071716B","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_B519818","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
+    {"name":"inst_2B11431","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,8 +23,9 @@
       ],"resourceType":"GMREffectLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":false,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_AF275D","colour":4289901311,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_AF275D","objectId":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":256.0,"y":128.0,},
-        {"$GMRInstance":"v2","%Name":"inst_34469DB3","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_34469DB3","objectId":{"name":"obj_Friend","path":"objects/obj_Friend/obj_Friend.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":128.0,},
-        {"$GMRInstance":"v2","%Name":"inst_66799EC8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_66799EC8","objectId":{"name":"obj_Friend","path":"objects/obj_Friend/obj_Friend.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":448.0,"y":192.0,},
+        {"$GMRInstance":"v2","%Name":"inst_1071716B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1071716B","objectId":{"name":"obj_RedGrunt","path":"objects/obj_RedGrunt/obj_RedGrunt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":416.0,"y":160.0,},
+        {"$GMRInstance":"v2","%Name":"inst_B519818","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_B519818","objectId":{"name":"obj_RedGrunt","path":"objects/obj_RedGrunt/obj_RedGrunt.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":480.0,"y":96.0,},
+        {"$GMRInstance":"v2","%Name":"inst_2B11431","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2B11431","objectId":{"name":"obj_RedElite","path":"objects/obj_RedElite/obj_RedElite.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":192.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Emplacements","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_5D2CC215","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5D2CC215","objectId":{"name":"obj_Landed_Ship","path":"objects/obj_Landed_Ship/obj_Landed_Ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":448.0,"y":256.0,},

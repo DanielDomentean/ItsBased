@@ -14,7 +14,7 @@ production_update = function()
 	{
 		num_units -= 1;
 		var _unit_type = obj_Foe;
-		if faction == 1 _unit_type = obj_Friend;
+		if faction == 1 _unit_type = obj_RedGrunt;
 		var _unt = instance_create_layer(x+random_range(-sprite_width,sprite_width), y+random_range(-sprite_height,sprite_height), "Instances", _unit_type);
 		_unt.faction = faction;
 		_unt.update_stuff();
