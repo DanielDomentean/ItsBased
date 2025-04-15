@@ -1,6 +1,5 @@
 
 Player actions
-	pick up units
 	building emplacements costs units
 	deploy units on landing (including the player, or you won't keep your upgrades)
 		deployment cooldown (for all emplacements).

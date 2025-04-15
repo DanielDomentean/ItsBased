@@ -64,10 +64,22 @@ take_action = function()
 {
 	if room == rm_menu
 	{
+		blast();
 		//room_goto(rm_travel);
 	}
+	else if (place_meeting(x, y, obj_RedGrunt) and obj_GM.gamestate == 3)
+	{ // pick up unit
+		var _unit = instance_nearest(x,y,obj_RedGrunt);
+		
+		if ( array_length(obj_GM.unit_payload) < 2 ) 
+		{
+			array_push(obj_GM.unit_payload, _unit);
+			instance_destroy( _unit );
+		}
+		else obj_GM.shake_screen();
+	}
 	else if (place_meeting(x, y, obj_Emplacement) and obj_GM.gamestate == 3)
-	{
+	{ // build emplacement
 		var _emp = instance_nearest(x,y,obj_Emplacement);
 		if ( _emp.faction == faction and _emp.loyalty > .8 ) launch();
 	}
