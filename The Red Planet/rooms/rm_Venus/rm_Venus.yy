@@ -15,7 +15,6 @@
     {"name":"inst_1CD1F400","path":"rooms/rm_Venus/rm_Venus.yy",},
     {"name":"inst_293527DA","path":"rooms/rm_Venus/rm_Venus.yy",},
     {"name":"inst_1344B365","path":"rooms/rm_Venus/rm_Venus.yy",},
-    {"name":"inst_3B841CB4","path":"rooms/rm_Venus/rm_Venus.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -31,7 +30,6 @@
         {"$GMRInstance":"v2","%Name":"inst_6A5D8EE5","colour":4289921021,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6A5D8EE5","objectId":{"name":"obj_Foe","path":"objects/obj_Foe/obj_Foe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":224.0,},
         {"$GMRInstance":"v2","%Name":"inst_342CF2A6","colour":4289921021,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_342CF2A6","objectId":{"name":"obj_Foe","path":"objects/obj_Foe/obj_Foe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":104.0,"y":99.0,},
         {"$GMRInstance":"v2","%Name":"inst_E1DFC1E","colour":4289921021,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_E1DFC1E","objectId":{"name":"obj_Foe","path":"objects/obj_Foe/obj_Foe.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":144.0,"y":46.0,},
-        {"$GMRInstance":"v2","%Name":"inst_3B841CB4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3B841CB4","objectId":{"name":"obj_GM","path":"objects/obj_GM/obj_GM.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":-96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Emplacements","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_1CD1F400","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1CD1F400","objectId":{"name":"obj_Landed_Ship","path":"objects/obj_Landed_Ship/obj_Landed_Ship.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.4,"scaleY":0.4,"x":448.0,"y":128.0,},
