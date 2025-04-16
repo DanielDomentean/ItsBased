@@ -8,7 +8,6 @@ spaceship spawns on "launch"
 	Don't forget to add a "next location" to all rooms
 text overlay system for the victory/failure/lore screens.
 	Add "story mode" object to the main menu
-	add a "restart" object to the victory/failure/menu rooms
 
 Effects
 Custom particle effects (using the default "fireworks" right now) for damage, shooting, etc.

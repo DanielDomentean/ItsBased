@@ -1,3 +1,5 @@
+landed ship should increment player lives on non-persistent levels
+clamp negative loyalty values
 
 UI stuff
 	Check Daniel's list for anything important that remains undone
