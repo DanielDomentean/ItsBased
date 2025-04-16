@@ -1,3 +1,6 @@
+
+var help_active = layer_get_visible(layer_get_id("Help"));
+
 var _y = 10;
 var _lineheight = 14;
 
@@ -8,6 +11,8 @@ if room == rm_victory
 }
 else draw_set_font(fnt_calibri_medium);
 
+if ( room != rm_menu or help_active )
+{
 draw_text(10,_y,mars_title + gs_status[gamestate] + calc_date(mars_time));
 _y += _lineheight;
 draw_text(10,_y,tit_mercury + stat_mercury + calc_date(mars_time - t_offset_mercury));
@@ -15,19 +20,6 @@ _y += _lineheight;
 draw_text(10,_y,tit_venus + stat_venus + calc_date(mars_time - t_offset_venus));
 _y += _lineheight;
 draw_text(10,_y,event_log[array_length(event_log)-1]);
-
-if room == rm_victory
-{
-	_y += _lineheight*2.618;
-	draw_text(50,_y,"After a great struggle, the red planet prevails!");
-	_y += _lineheight;
-	draw_text(80,_y,"An age of peace reigns. Congratulations " + mars_title);
-	_y += _lineheight;
-	draw_text(100,_y,"(You beat the game!)");
-	_y += _lineheight;
-	
-}
-else draw_set_font(fnt_calibri_medium);
 
 
 // player inventory bar
@@ -63,3 +55,26 @@ for (var i = 0; i < 4; i += 1)
 	}
 }
 }
+
+}
+
+if room == rm_victory
+{
+	_y += _lineheight*2.618;
+	draw_text(50,_y,"After a great struggle, the red planet prevails!");
+	_y += _lineheight;
+	draw_text(80,_y,"An age of peace reigns. Congratulations " + mars_title);
+	_y += _lineheight;
+	draw_text(100,_y,"(You beat the game!)");
+	_y += _lineheight;
+	
+}
+else draw_set_font(fnt_calibri_medium);
+
+
+
+if help_active
+{
+	draw_text(55*2,220*2,"Marshal the people of The Red Planet\nTravel to the other worlds\nDefeat the AI gods\nFree the solar system");
+}
+
