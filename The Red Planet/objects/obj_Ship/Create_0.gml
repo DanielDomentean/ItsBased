@@ -71,7 +71,7 @@ wander = function()
 
 shoot = function()
 {
-	var _blt = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Instances", obj_Bullett);
+	var _blt = instance_create_layer(x+random_range(-jit,jit), y+random_range(-jit,jit), "Instances", obj_space_bullet);
 		_blt.direction = shootdir;
 		_blt.direction += random_range(-spread,spread)
 		_blt.faction = faction;

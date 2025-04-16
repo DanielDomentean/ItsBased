@@ -15,7 +15,12 @@ activeinput = true;
 animation_count = 0;
 
 move_speed = 5;
+max_speed = 5;
+acceleration = 0.1;
+ship_friction = 0.02;
 hp = 20;
+
+lock_movement_to_room = true;
 
 retarget_delay = 120;
 update_stuff();
@@ -46,3 +51,5 @@ loginput = function(_input = "any")
 	activeinput = true;
 	alarm[0] = 60;
 }
+
+audio_play_sound(snd_ship_hum, 0, true);

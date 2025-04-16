@@ -12,5 +12,4 @@ text overlay system for the victory/failure/lore screens.
 
 Effects
 Custom particle effects (using the default "fireworks" right now) for damage, shooting, etc.
-new projectile sprite for the space battles
 room transition animations (screen fade?)
