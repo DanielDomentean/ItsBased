@@ -89,6 +89,7 @@
     {"id":{"name":"spr_city","path":"sprites/spr_city/spr_city.yy",},},
     {"id":{"name":"spr_EliteRed","path":"sprites/spr_EliteRed/spr_EliteRed.yy",},},
     {"id":{"name":"spr_flag","path":"sprites/spr_flag/spr_flag.yy",},},
+    {"id":{"name":"spr_help","path":"sprites/spr_help/spr_help.yy",},},
     {"id":{"name":"spr_hp","path":"sprites/spr_hp/spr_hp.yy",},},
     {"id":{"name":"spr_Keycap","path":"sprites/spr_Keycap/spr_Keycap.yy",},},
     {"id":{"name":"spr_Mars","path":"sprites/spr_Mars/spr_Mars.yy",},},

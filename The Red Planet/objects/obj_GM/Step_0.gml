@@ -1,7 +1,7 @@
 // determine the current game mode
 
 
-if ( keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_tab) or keyboard_check_pressed(vk_pageup) or keyboard_check_pressed(vk_pause) )
+if ( keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_tab) or keyboard_check_pressed(vk_pageup) or keyboard_check_pressed(vk_pause) or keyboard_check_pressed(vk_delete) or keyboard_check_pressed(vk_backspace) )
 {
 	if room != rm_menu room_goto(rm_menu);
 	else

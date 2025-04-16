@@ -1,7 +1,6 @@
 Character controls:
 Click-to-move + action and interaction for tablet/mobile users
 gamepad + controller support
-numpad controls (8-way directional)
 
 UI elements:
 faction color image_blend for planets to indicate faction control (convert all planets to Red Planets! Game Jam Theming!)
