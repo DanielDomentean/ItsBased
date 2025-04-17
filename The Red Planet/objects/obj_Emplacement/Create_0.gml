@@ -24,6 +24,5 @@ loyalty_update = function(_unit)
 			image_blend = global.faction_colors[faction];
 		}
 	}
-	loyalty = max(loyalty,0);
 	
 }

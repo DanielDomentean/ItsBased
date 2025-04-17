@@ -132,7 +132,7 @@ launch = function()
 
 wander = function()
 {
-	if room == rm_menu targ_x = x + wander_dist*1.618;
+	if ( instance_exists(obj_restart) ) targ_x = x + wander_dist*1.618;
 	else targ_x = random_range(xstart - wander_dist, xstart + wander_dist );
 	targ_y = random_range(ystart - wander_dist, ystart + wander_dist );
 	

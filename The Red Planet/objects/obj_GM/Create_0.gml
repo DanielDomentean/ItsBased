@@ -1,4 +1,6 @@
 
+randomize();
+
 // gamephase
 // 0 : paused, menu, etc
 // 1 : spaceship

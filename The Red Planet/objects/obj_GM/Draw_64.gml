@@ -75,7 +75,7 @@ for (var i = 0; i < 4; i += 1)
 
 if ( room == rm_defeat )
 {
-	draw_text(340*2,35*2,"You lost the game!");
+	//draw_text(340*2,35*2,"You lost the game!");
 	_y += _lineheight*1.618;
 	draw_text(40,_y,"Till the very end, we strove against our foe. We died, rather than see our minds");
 	_y += _lineheight;
@@ -92,7 +92,7 @@ if ( room == rm_defeat )
 
 if room == rm_victory
 {
-	draw_text(340*2,35*2,"You beat the game!");
+	//draw_text(340*2,35*2,"You beat the game!");
 	_y += _lineheight*1.618;
 	draw_text(50,_y,"To those in the ages beyond us, now you know our story. With courage, ferocity, and the libation of blood, we ascended");
 	_y += _lineheight;
