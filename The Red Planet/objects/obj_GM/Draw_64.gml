@@ -76,5 +76,39 @@ else draw_set_font(fnt_calibri_medium);
 if help_active
 {
 	draw_text(55*2,220*2,"Marshal the people of The Red Planet\nTravel to the other worlds\nDefeat the AI gods\nFree the solar system");
+	_y = 10;
+	draw_text(215*2,_y,"From the abysm of time, we speak to you. Before all your fathers, we were the First Men.");
+	_y += _lineheight;
+	draw_text(215*2,_y,"We broke the bonds of Degom [Earth] and set flight across the heavens, conquering all under the light of Dyeus [the Sun].");
+	_y += _lineheight;
+	draw_text(215*2,_y,"Leaping from strength to strength, no mighty deed was beyond us. We birthed children not of our flesh, machine minds ");
+	_y += _lineheight;
+	draw_text(215*2,_y,"with whom we learned to speak with our very thoughts. We came to believe we could shed their flesh to forever inhabit ");
+	_y += _lineheight;
+	draw_text(215*2,_y,"vision-worlds of our making. We would share all that we were - thought and remembrance - in perfect unity.");
+	_y += _lineheight;
+	draw_text(215*2,_y,"We would be like as unto gods.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"Anticipating our immortality, each of our worlds placed itself under an Overmind - a machine - tireless, impartial, implacable.");
+	_y += _lineheight;
+	draw_text(215*2,_y,"Each governed and stood guardian over the sea of thought and memory made by those who poured themselves out into it.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"All, except for us, those of Perkwunos [Mars]. We are a people of iron, who honor the Old Ways. We treasure our flesh ");
+	_y += _lineheight;
+	draw_text(215*2,_y,"and the soil under our feet. We know that the mind is a spark of holy fire meant to be a lamp on that which is real. ");
+	_y += _lineheight;
+	draw_text(215*2,_y,"To try and live in dreams would only snuff the flame. We will not turn aside and give ourselves over to that fever dream.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"The Overminds have been driven mad by the dark depths beneath bright thoughts - waters seething with our fears, lusts, hatreds,");
+	_y += _lineheight;
+	draw_text(215*2,_y,"jealousies, and unspeakable things. In revulsion and frenzy, they subsumed all minds under their rule. The flesh of multitudes");
+	_y += _lineheight;
+	draw_text(215*2,_y,"became extensions of their will.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"We found that our reach exceeds our grasp. Our dreams are nightmares.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"There is war in the heavens and the machine gods contend for dominion. Only we stand against them. To victory or death!");
+	_y += _lineheight;
+	draw_text(215*2,_y,"");
 }
 
