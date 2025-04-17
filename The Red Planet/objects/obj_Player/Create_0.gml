@@ -16,6 +16,7 @@ animation_count = 0;
 
 move_speed = 1.618;
 hp = 20;
+pow = 2;
 
 retarget_delay = 120;
 update_stuff();
@@ -100,14 +101,24 @@ take_action = function()
 	
 }
 
+//overwrite shoot
+shoot = function()
+{
+	var _blt = instance_create_layer(x, y, "Instances", projectile);
+		_blt.direction = point_direction(x,y,targ_x,targ_y);
+		_blt.faction = faction;
+		_blt.contact_dmg = pow * random_range(0.618,1.618);
+		_blt.update_stuff();
+}
+
 blast = function()
 {
-	spread += 20
-	for (var i = 0; i < 7; i += 1)
+	spread += 10
+	for (var i = 0; i < 5; i += 1)
 	{
 		shoot();
 	}
-	spread -= 20
+	spread -= 10
 	audio_play_sound(snd_beww,0,false,0.08,0,random_range(.3,.5));
 }
 
@@ -124,4 +135,10 @@ wander = function()
 	targ_y = random_range(ystart - wander_dist, ystart + wander_dist );
 	
 	alarm[2] = -1;
+}
+
+if (!room == rm_menu) {
+	image_xscale = 0.5;
+	image_yscale = 0.5;
+	hp_bar_width = hp_bar_width * 0.5;
 }
