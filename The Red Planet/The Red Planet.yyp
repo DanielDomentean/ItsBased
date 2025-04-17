@@ -70,6 +70,7 @@
     {"id":{"name":"obj_vboss","path":"objects/obj_vboss/obj_vboss.yy",},},
     {"id":{"name":"obj_venus_grunt","path":"objects/obj_venus_grunt/obj_venus_grunt.yy",},},
     {"id":{"name":"obj_venus_healer","path":"objects/obj_venus_healer/obj_venus_healer.yy",},},
+    {"id":{"name":"rm_defeat","path":"rooms/rm_defeat/rm_defeat.yy",},},
     {"id":{"name":"rm_lvl_Mars","path":"rooms/rm_lvl_Mars/rm_lvl_Mars.yy",},},
     {"id":{"name":"rm_lvl_Mercury_Orbital","path":"rooms/rm_lvl_Mercury_Orbital/rm_lvl_Mercury_Orbital.yy",},},
     {"id":{"name":"rm_lvl_Moon","path":"rooms/rm_lvl_Moon/rm_lvl_Moon.yy",},},
@@ -135,6 +136,7 @@
     {"roomId":{"name":"rm_lvl_Mercury_Orbital","path":"rooms/rm_lvl_Mercury_Orbital/rm_lvl_Mercury_Orbital.yy",},},
     {"roomId":{"name":"rm_Mercury","path":"rooms/rm_Mercury/rm_Mercury.yy",},},
     {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
+    {"roomId":{"name":"rm_defeat","path":"rooms/rm_defeat/rm_defeat.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

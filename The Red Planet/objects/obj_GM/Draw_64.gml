@@ -4,12 +4,18 @@ var help_active = layer_get_visible(layer_get_id("Help"));
 var _y = 10;
 var _lineheight = 14;
 
-if room == rm_victory
+if ( room == rm_victory or room == rm_defeat )
 {
 	_lineheight = 20;
 	draw_set_font(fnt_calibri_large);
 }
 else draw_set_font(fnt_calibri_medium);
+
+
+if ( room == rm_defeat )
+{
+	
+}
 
 if ( room != rm_menu or help_active )
 {
@@ -18,8 +24,19 @@ _y += _lineheight;
 draw_text(10,_y,tit_mercury + stat_mercury + calc_date(mars_time - t_offset_mercury));
 _y += _lineheight;
 draw_text(10,_y,tit_venus + stat_venus + calc_date(mars_time - t_offset_venus));
+if ( not instance_exists(obj_restart) )
+{
 _y += _lineheight;
 draw_text(10,_y,event_log[array_length(event_log)-1]);
+}
+else
+{
+	for (var i = 0; i < array_length(event_log); i += 1)
+	{
+		_y += _lineheight;
+		draw_text(10,_y,event_log[i]);
+	}
+}
 
 
 // player inventory bar
@@ -60,13 +77,23 @@ for (var i = 0; i < 4; i += 1)
 
 if room == rm_victory
 {
-	_y += _lineheight*2.618;
-	draw_text(50,_y,"After a great struggle, the red planet prevails!");
+	draw_text(340*2,35*2,"You beat the game!");
+	_y += _lineheight*1.618;
+	draw_text(50,_y,"To those in the ages beyond us, now you know our story. With courage, ferocity, and the libation of blood, we ascended");
 	_y += _lineheight;
-	draw_text(80,_y,"An age of peace reigns. Congratulations " + mars_title);
+	draw_text(40,_y," to victory. In victory, we sacrificed power and empire, but reclaimed the soul of our people. As we pass from this age");
 	_y += _lineheight;
-	draw_text(100,_y,"(You beat the game!)");
+	draw_text(40,_y,"and come to our end, we face it as men, knowing and repenting of the shame of submission to the work of our hands.");
 	_y += _lineheight;
+	draw_text(40,_y,"What we once called \"gods\" we cherish as our children. As we have lived in honor, so we hope to live in glory.");
+	_y += _lineheight;
+	draw_text(40,_y,"For in man is that spark of holy fire that no mortal hand may extinguish.");
+	_y += _lineheight*1.618;
+	draw_text(40,_y,"Remember us, sons of Degom [Earth]. Tell our story, learn wisdom for our folly.");
+	_y += _lineheight;
+	draw_text(40,_y,"As you strive to the stars, live well as men and remember that you are not gods.");
+	_y += _lineheight;
+	draw_text(40,_y,"");
 	
 }
 else draw_set_font(fnt_calibri_medium);
@@ -111,4 +138,5 @@ if help_active
 	_y += _lineheight;
 	draw_text(215*2,_y,"");
 }
+
 
