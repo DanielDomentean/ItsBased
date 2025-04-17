@@ -89,13 +89,25 @@ if help_active
 	_y += _lineheight;
 	draw_text(215*2,_y,"We would be like as unto gods.");
 	_y += _lineheight*1.618;
-	draw_text(215*2,_y,"Anticipating our immortality, each of our worlds placed itself under an Overmind—a machine—tireless, impartial, implacable.");
+	draw_text(215*2,_y,"Anticipating our immortality, each of our worlds placed itself under an Overmind - a machine - tireless, impartial, implacable.");
 	_y += _lineheight;
 	draw_text(215*2,_y,"Each governed and stood guardian over the sea of thought and memory made by those who poured themselves out into it.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"All, except for us, those of Perkwunos [Mars]. We are a people of iron, who honor the Old Ways. We treasure our flesh ");
 	_y += _lineheight;
-	draw_text(215*2,_y,"");
+	draw_text(215*2,_y,"and the soil under our feet. We know that the mind is a spark of holy fire meant to be a lamp on that which is real. ");
 	_y += _lineheight;
-	draw_text(215*2,_y,"");
+	draw_text(215*2,_y,"To try and live in dreams would only snuff the flame. We will not turn aside and give ourselves over to that fever dream.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"The Overminds have been driven mad by the dark depths beneath bright thoughts - waters seething with our fears, lusts, hatreds,");
+	_y += _lineheight;
+	draw_text(215*2,_y,"jealousies, and unspeakable things. In revulsion and frenzy, they subsumed all minds under their rule. The flesh of multitudes");
+	_y += _lineheight;
+	draw_text(215*2,_y,"became extensions of their will.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"We found that our reach exceeds our grasp. Our dreams are nightmares.");
+	_y += _lineheight*1.618;
+	draw_text(215*2,_y,"There is war in the heavens and the machine gods contend for dominion. Only we stand against them. To victory or death!");
 	_y += _lineheight;
 	draw_text(215*2,_y,"");
 }
