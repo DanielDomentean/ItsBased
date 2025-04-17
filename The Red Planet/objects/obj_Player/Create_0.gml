@@ -37,7 +37,9 @@ delayed_death = function()
 
 last_chance = function()
 {
-	if hp <= 0 game_restart();
+	if ( hp <= 0 ) { 
+		room_goto(rm_defeat);
+	}
 	else
 	{
 		direction = 90;

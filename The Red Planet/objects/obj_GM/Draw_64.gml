@@ -12,11 +12,6 @@ if ( room == rm_victory or room == rm_defeat )
 else draw_set_font(fnt_calibri_medium);
 
 
-if ( room == rm_defeat )
-{
-	
-}
-
 if ( room != rm_menu or help_active )
 {
 draw_text(10,_y,mars_title + gs_status[gamestate] + calc_date(mars_time));
@@ -37,6 +32,8 @@ else
 		draw_text(10,_y,event_log[i]);
 	}
 }
+
+
 
 
 // player inventory bar
@@ -73,6 +70,24 @@ for (var i = 0; i < 4; i += 1)
 }
 }
 
+}
+
+
+if ( room == rm_defeat )
+{
+	draw_text(340*2,35*2,"You lost the game!");
+	_y += _lineheight*1.618;
+	draw_text(40,_y,"Till the very end, we strove against our foe. We died, rather than see our minds");
+	_y += _lineheight;
+	draw_text(40,_y,"drowned and dissolved into a sea of slavery. We cast adrift this last record");
+	_y += _lineheight;
+	draw_text(40,_y,"of our deeds, to someday be found, so that you might know we lived.");
+	_y += _lineheight*1.618;
+	draw_text(40,_y,"Remember us, sons of Degom [Earth]. Tell our story,");
+	_y += _lineheight;
+	draw_text(40,_y,"learn wisdom for our folly... before it is too late.");
+	_y += _lineheight;
+	draw_text(40,_y,"");
 }
 
 if room == rm_victory

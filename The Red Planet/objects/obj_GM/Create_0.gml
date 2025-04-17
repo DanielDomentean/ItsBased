@@ -7,7 +7,7 @@
 
 player_lives = 1;
 gamestate = 0;
-gs_status = ["Grooming Hounds: ", "Faschia Bound:  ", "Dogs of War:    ", "Marshaling:     "];
+gs_status = ["Grooming Hounds: ", "Faschia Bound:  ", "Dogs of War:    ", "Marshaling:     ", "Has Fallen:     "];
 
 // number of days that pass per frame of game-time
 dayrate = 0;
@@ -39,6 +39,9 @@ stat_venus = "Defiled Queen: ";
 bosses_living = 2;
 //bosses_living = 0;
 //alarm[0] = 20; // victory test
+
+//alarm[1] = 20; // defeat test
+
 
 event_log = [];
 array_push(event_log, tit_venus + "Sold herself to corruption: " + string(calc_date(t_offset_venus)));
