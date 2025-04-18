@@ -67,7 +67,7 @@ take_action = function()
 {
 	if room == rm_menu
 	{
-		blast();
+		//blast();
 		//room_goto(rm_travel);
 	}
 	else if (place_meeting(x, y, obj_RedGrunt) and obj_GM.gamestate == 3)
@@ -78,6 +78,7 @@ take_action = function()
 		{
 			array_push(obj_GM.unit_payload, _unit.object_index);
 			instance_destroy( _unit );
+			audio_play_sound(snd_pickup_soldier, 0, false);
 		}
 		else obj_GM.shake_screen();
 	}

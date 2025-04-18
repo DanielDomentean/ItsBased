@@ -117,8 +117,9 @@ else draw_set_font(fnt_calibri_medium);
 
 if help_active
 {
-	draw_text(55*2,220*2,"Marshal the people of The Red Planet\nTravel to the other worlds\nDefeat the AI gods\nFree the solar system");
-	_y = 10;
+	_y = 50;
+	draw_text(215*2,_y,"Marshal the people of The Red Planet - Travel to the other worlds - Defeat the AI gods - Free the solar system");
+	_y += 50;
 	draw_text(215*2,_y,"From the abysm of time, we speak to you. Before all your fathers, we were the First Men.");
 	_y += _lineheight;
 	draw_text(215*2,_y,"We broke the bonds of Degom [Earth] and set flight across the heavens, conquering all under the light of Dyeus [the Sun].");
