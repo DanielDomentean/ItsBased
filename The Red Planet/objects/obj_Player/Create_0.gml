@@ -37,7 +37,9 @@ delayed_death = function()
 
 last_chance = function()
 {
-	if hp <= 0 game_restart();
+	if ( hp <= 0 ) { 
+		room_goto(rm_defeat);
+	}
 	else
 	{
 		direction = 90;
@@ -65,7 +67,7 @@ take_action = function()
 {
 	if room == rm_menu
 	{
-		blast();
+		//blast();
 		//room_goto(rm_travel);
 	}
 	else if (place_meeting(x, y, obj_RedGrunt) and obj_GM.gamestate == 3)
@@ -76,6 +78,7 @@ take_action = function()
 		{
 			array_push(obj_GM.unit_payload, _unit.object_index);
 			instance_destroy( _unit );
+			audio_play_sound(snd_pickup_soldier, 0, false);
 		}
 		else obj_GM.shake_screen();
 	}
@@ -130,14 +133,14 @@ launch = function()
 
 wander = function()
 {
-	if room == rm_menu targ_x = x + wander_dist*1.618;
+	if ( instance_exists(obj_restart) ) targ_x = x + wander_dist*1.618;
 	else targ_x = random_range(xstart - wander_dist, xstart + wander_dist );
 	targ_y = random_range(ystart - wander_dist, ystart + wander_dist );
 	
 	alarm[2] = -1;
 }
 
-if (!room == rm_menu) {
+if (not instance_exists(obj_restart)) {
 	image_xscale = 0.5;
 	image_yscale = 0.5;
 	hp_bar_width = hp_bar_width * 0.5;

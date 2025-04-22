@@ -7,7 +7,12 @@ event_inherited();
 
 // sprite_index = sp_ship04;
 
-delayed_action = game_restart;
+ship_dies = function()
+{
+	room_goto(rm_defeat);
+}
+
+delayed_action = ship_dies;
 
 disabled = false;
 activeinput = true;

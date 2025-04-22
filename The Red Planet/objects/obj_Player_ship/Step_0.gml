@@ -83,3 +83,9 @@ if ( keyboard_check_pressed(vk_space) or keyboard_check_pressed(vk_control) or k
 	take_action();
 	loginput();
 }
+
+if ( hp <= 0 and not disabled) {
+	alarm[1] = 60;
+	disabled = true;
+	obj_GM.shake_screen();
+}

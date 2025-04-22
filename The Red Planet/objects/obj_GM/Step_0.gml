@@ -21,7 +21,7 @@ if ( keyboard_check_pressed(vk_escape) or keyboard_check_pressed(vk_tab) or keyb
 	}
 }
 
-if false exit; // start of state evaluation
+if gamestate == 4 exit; // start of state evaluation
 else if room == rm_menu
 {
 	
